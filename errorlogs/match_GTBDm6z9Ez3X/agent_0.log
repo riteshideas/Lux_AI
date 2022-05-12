@@ -1,9 +1,0 @@
-=== Agent Install Log ===
-=== Agent Compile Log ===
-=== Agent Error Log ===
-Traceback (most recent call last):
-  File "main.py", line 32, in <module>
-    actions = agent(observation, None)
-  File "/Users/ritesh/Downloads/Python/Python/Lux AI/intermediate/agent.py", line 168, in agent
-    if (unit.pos, unit_move_dir) in unit_actions.values() and unit_actions[unit.id] != (unit.pos, unit_move_dir):
-KeyError: 'u_5'

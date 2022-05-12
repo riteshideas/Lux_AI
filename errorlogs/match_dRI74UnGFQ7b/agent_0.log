@@ -1,9 +1,0 @@
-=== Agent Install Log ===
-=== Agent Compile Log ===
-=== Agent Error Log ===
-Traceback (most recent call last):
-  File "main.py", line 32, in <module>
-    actions = agent(observation, None)
-  File "/Users/ritesh/Downloads/Python/Python/Lux AI/intermediate/agent.py", line 137, in agent
-    if len(workers) + 0.01 / len(city_tiles) + 0.01 >= 0.8: # The 0.01 to avoid zero division error but still obtain accuracy
-ZeroDivisionError: float division by zero
