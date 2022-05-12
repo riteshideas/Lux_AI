@@ -1,1361 +1,908 @@
-[0] : {'u_1': (<lux.game_map.Position object at 0x7fbaf819e7f0>, 'n')}
-[1] : {'u_1': (<lux.game_map.Position object at 0x7fbaf819e7f0>, 'n')}
-[2] : We want to build city!
-[2] : Build pos : (3, 10)
-[2] : Going to build city : (3, 10)
-[2] : Next tile : (3, 9)  u_1
-[2] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8179fa0>, 'e')}
-[3] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8179fa0>, 'e')}
-[4] : We want to build city!
-[4] : Going to build city : (3, 10)
-[4] : Next tile : (4, 9)  u_1
-[4] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81cf9d0>, 's')}
-[5] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81cf9d0>, 's')}
-[6] : We want to build city!
-[6] : Going to build city : (3, 10)
-[6] : Next tile : (4, 10)  u_1
-[6] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81a0340>, 's')}
-[7] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81a0340>, 's')}
-[8] : We want to build city!
-[8] : Going to build city : (3, 10)
-[8] : Next tile : (3, 10)  u_1
-[8] : {'u_1': (<lux.game_map.Position object at 0x7fbaf818db50>, 'w')}
-[9] : {'u_1': (<lux.game_map.Position object at 0x7fbaf818db50>, 'w')}
-[10] : We want to build city!
-[10] : Building city, Yay!
-[10] : {'u_1': (<lux.game_map.Position object at 0x7fbaf818db50>, 'w')}
-[11] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81cf2e0>, 'w')}
-[12] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81cf2e0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8185190>, 'n')}
-[13] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81bd4c0>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8185190>, 'n')}
-[14] : We want to build city!
-[14] : Build pos : (4, 9)
-[14] : Going to build city : (4, 9)
-[14] : Next tile : (5, 8)  u_3
-[14] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81a0550>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0040>, 'e')}
-[15] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b9d60>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0040>, 'e')}
-[16] : We want to build city!
-[16] : Going to build city : (4, 9)
-[16] : Next tile : (2, 8)  u_1
-[16] : We want to build city!
-[16] : Going to build city : (4, 9)
-[16] : Next tile : (4, 10)  u_3
-[16] : {'u_1': (<lux.game_map.Position object at 0x7fbaf817d460>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817d430>, 's')}
-[17] : {'u_1': (<lux.game_map.Position object at 0x7fbaf817d460>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817d430>, 's')}
-[18] : We want to build city!
-[18] : Going to build city : (4, 9)
-[18] : Next tile : (4, 9)  u_1
-[18] : We want to build city!
-[18] : Building city, Yay!
-[18] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81781c0>, 'e'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817d430>, 's')}
-[19] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81851c0>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8185760>, 'n')}
-[20] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81851c0>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8185760>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b1df0>, 'w')}
-[21] : We want to build city!
-[21] : Build pos : (2, 9)
-[21] : Going to build city : (2, 9)
-[21] : Next tile : (3, 11)  u_1
-[21] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81a9700>, 's'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a9790>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b1df0>, 'w')}
-[22] : We want to build city!
-[22] : Going to build city : (2, 9)
-[22] : Next tile : (4, 11)  u_3
-[22] : {'u_1': (<lux.game_map.Position object at 0x7fbaf816dca0>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816d8b0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816d160>, 'c')}
-[23] : {'u_1': (<lux.game_map.Position object at 0x7fbaf816dca0>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b1280>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b1b20>, 'c')}
-[24] : We want to build city!
-[24] : Going to build city : (2, 9)
-[24] : Next tile : (3, 11)  u_1
-[24] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81c0c10>, 's'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b1280>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c0f40>, 'c')}
+[0] : False , 0.0
+
+[1] : False , 0.0
+
+[2] : False , 0.0
+
+[3] : False , 0.0
+[3] : Going back to city
+
+[4] : False , 100.0
+
+[5] : False , 100.0
+
+[6] : False , 100.0
+
+[7] : False , 100.0
+[7] : Going back to city
+
+[8] : False , 100.0
+
+[9] : False , 100.0
+[9] : Going back to city
+
+[10] : False , 100.0
+
+[11] : False , 100.0
+[11] : Going back to city
+
+[12] : False , 200.0
+
+[13] : False , 200.0
+
+[14] : False , 200.0
+
+[15] : False , 200.0
+[15] : Going back to city
+
+[16] : False , 300.0
+
+[17] : False , 300.0
+
+[18] : False , 300.0
+
+[19] : False , 300.0
+[19] : Going back to city
+
+[20] : True , 400.0
+
+[21] : True , 400.0
+
+[22] : True , 400.0
+
+[23] : True , 400.0
+[23] : We want to build city!
+[23] : Error : list index out of range
+
+[24] : True , 400.0
+
+[25] : True , 400.0
 [25] : We want to build city!
-[25] : Going to build city : (2, 9)
-[25] : Next tile : (2, 7)  u_4
-[25] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81c93d0>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c93a0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c94c0>, 'n')}
+[25] : Error : list index out of range
+
+[26] : True , 400.0
 [26] : We want to build city!
-[26] : Going to build city : (2, 9)
-[26] : Next tile : (4, 11)  u_3
-[26] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81c93d0>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81bdfa0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c94c0>, 'n')}
-[27] : We want to build city!
-[27] : Going to build city : (2, 9)
-[27] : Next tile : (3, 11)  u_1
-[27] : We want to build city!
-[27] : Building city, Yay!
-[27] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8174280>, 's'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8174310>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c94c0>, 'n')}
-[28] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81cbf10>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8174310>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81cbe50>, 'n')}
-[29] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81cbf10>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819e6d0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81cbe50>, 'n'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819e670>, 'n')}
-[30] : We want to build city!
-[30] : We want to build city!
-[30] : Build pos : (4, 10)
-[30] : Going to build city : (4, 10)
-[30] : Next tile : (4, 12)  u_3
-[30] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81cbf10>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf818d9d0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf818d910>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf818ddf0>, 'n')}
-[31] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81a0160>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0640>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a0700>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a0df0>, 'n')}
-[32] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81d3f40>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0640>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d3a90>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d38b0>, 'n')}
-[33] : {'u_1': (<lux.game_map.Position object at 0x7fbb08160580>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0640>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbb08160850>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbb081608b0>, 'n')}
-[34] : {'u_1': (<lux.game_map.Position object at 0x7fbaf816d3a0>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0640>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816da90>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819e220>, 'n')}
-[35] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81cbbb0>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81cbc10>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81cb4c0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81cbf70>, 'n')}
-[36] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8185f10>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8185d00>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8185910>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8185940>, 'n')}
-[37] : {'u_1': (<lux.game_map.Position object at 0x7fbaf818fc40>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf818fc10>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf818fdc0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf818fe50>, 'n')}
-[38] : {'u_1': (<lux.game_map.Position object at 0x7fbb081626a0>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbb08162c10>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbb081629d0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbb08162220>, 'n')}
-[39] : {'u_1': (<lux.game_map.Position object at 0x7fbaf816de20>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816d670>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816d970>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf816d580>, 'n')}
-[40] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81a0f10>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0880>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a0820>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a0e80>, 'n')}
-[41] : We want to build city!
-[41] : Going to build city : (4, 10)
-[41] : Next tile : (7, 8)  u_1
-[41] : We want to build city!
-[41] : Going to build city : (4, 10)
-[41] : Next tile : (4, 12)  u_3
-[41] : We want to build city!
-[41] : Going to build city : (4, 10)
-[41] : Next tile : (6, 8)  u_4
-[41] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b3eb0>, 'e'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b3b20>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81acf70>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81ac9a0>, 'n')}
-[42] : We want to build city!
-[42] : Going to build city : (4, 10)
-[42] : Next tile : (6, 8)  u_4
-[42] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b3eb0>, 'e'), 'u_3': (<lux.game_map.Position object at 0x7fbb08161730>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbb081618e0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08161970>, 'n')}
-[43] : We want to build city!
-[43] : Going to build city : (4, 10)
-[43] : Next tile : (4, 12)  u_1
-[43] : We want to build city!
-[43] : Going to build city : (4, 10)
-[43] : Next tile : (6, 8)  u_4
-[43] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8185940>, 's'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8185a00>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8185610>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8185100>, 'n')}
-[44] : We want to build city!
-[44] : Going to build city : (4, 10)
-[44] : Next tile : (6, 8)  u_4
-[44] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8185940>, 's'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8185a00>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816db80>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf816d370>, 'n')}
-[45] : We want to build city!
-[45] : Going to build city : (4, 10)
-[45] : Next tile : (6, 8)  u_4
-[45] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8185940>, 's'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819ea60>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819e3a0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819e6d0>, 'n')}
-[46] : We want to build city!
-[46] : Going to build city : (4, 10)
-[46] : Next tile : (6, 8)  u_4
-[46] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81cbdf0>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81cb8e0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81cba30>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81cbb20>, 'n')}
-[47] : We want to build city!
-[47] : Going to build city : (4, 10)
-[47] : Next tile : (4, 12)  u_3
-[47] : We want to build city!
-[47] : Going to build city : (4, 10)
-[47] : Next tile : (6, 8)  u_4
-[47] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81d3820>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d3bb0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d3040>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d3a90>, 'n')}
-[48] : We want to build city!
-[48] : Going to build city : (4, 10)
-[48] : Next tile : (6, 8)  u_4
-[48] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81d3820>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d3bb0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81acb80>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81ac4f0>, 'n')}
-[49] : We want to build city!
-[49] : Going to build city : (4, 10)
-[49] : Next tile : (6, 8)  u_4
-[49] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81a7550>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a7730>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a7760>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a7970>, 'n')}
-[50] : We want to build city!
-[50] : Going to build city : (4, 10)
-[50] : Next tile : (6, 8)  u_4
-[50] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8178f70>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8178fd0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbb08125130>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbae815ad60>, 'n')}
-[51] : We want to build city!
-[51] : Going to build city : (4, 10)
-[51] : Next tile : (6, 8)  u_4
-[51] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8181760>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81817c0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8181940>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8181a90>, 'n')}
-[52] : We want to build city!
-[52] : Going to build city : (4, 10)
-[52] : Next tile : (4, 12)  u_1
-[52] : We want to build city!
-[52] : Going to build city : (4, 10)
-[52] : Next tile : (6, 8)  u_4
-[52] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81a0e50>, 's'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0820>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819e3d0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819efd0>, 'n')}
-[53] : We want to build city!
-[53] : Going to build city : (4, 10)
-[53] : Next tile : (6, 8)  u_4
-[53] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81a0e50>, 's'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0820>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81bfa30>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81bfac0>, 'n')}
-[54] : We want to build city!
-[54] : Going to build city : (4, 10)
-[54] : Next tile : (6, 8)  u_4
-[54] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81a0e50>, 's'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816d610>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816d8e0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf816d970>, 'n')}
-[55] : We want to build city!
-[55] : Going to build city : (4, 10)
-[55] : Next tile : (6, 8)  u_4
-[55] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b6970>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b69d0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b6bb0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b6ca0>, 'n')}
-[56] : We want to build city!
-[56] : Going to build city : (4, 10)
-[56] : Next tile : (6, 8)  u_4
-[56] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81d3af0>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d3cd0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d3310>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d31f0>, 'n')}
-[57] : We want to build city!
-[57] : Going to build city : (4, 10)
-[57] : Next tile : (4, 12)  u_3
-[57] : We want to build city!
-[57] : Going to build city : (4, 10)
-[57] : Next tile : (6, 8)  u_4
-[57] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81976d0>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8197af0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8197b80>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8197e20>, 'n')}
+[26] : Error : list index out of range
+
+[27] : True , 400.0
+
+[28] : True , 400.0
+[28] : We want to build city!
+[28] : Error : list index out of range
+
+[29] : True , 400.0
+[29] : We want to build city!
+[29] : Error : list index out of range
+
+[30] : True , 400.0
+
+[31] : True , 377.0
+
+[32] : True , 354.0
+
+[33] : True , 331.0
+
+[34] : True , 308.0
+
+[35] : False , 285.0
+
+[36] : False , 262.0
+
+[37] : False , 239.0
+
+[38] : False , 216.0
+
+[39] : False , 193.0
+
+[40] : False , 170.0
+
+[41] : False , 170.0
+
+[42] : False , 170.0
+[42] : Going back to city
+
+[43] : False , 170.0
+
+[44] : False , 170.0
+[44] : Going back to city
+
+[45] : False , 170.0
+
+[46] : False , 170.0
+[46] : Going back to city
+
+[47] : False , 270.0
+
+[48] : False , 270.0
+
+[49] : False , 270.0
+
+[50] : False , 270.0
+[50] : Going back to city
+
+[51] : False , 270.0
+
+[52] : False , 270.0
+[52] : Going back to city
+
+[53] : False , 270.0
+
+[54] : False , 270.0
+[54] : Going back to city
+
+[55] : True , 370.0
+
+[56] : True , 370.0
+
+[57] : True , 370.0
+
+[58] : True , 370.0
 [58] : We want to build city!
-[58] : Going to build city : (4, 10)
-[58] : Next tile : (6, 8)  u_4
-[58] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81976d0>, 'n'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8197af0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81995b0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8199610>, 'n')}
-[59] : We want to build city!
-[59] : Going to build city : (4, 10)
-[59] : Next tile : (6, 8)  u_4
-[59] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81bdcd0>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81bdeb0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81bdee0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81bdb20>, 'n')}
-[60] : We want to build city!
-[60] : Going to build city : (4, 10)
-[60] : Next tile : (6, 8)  u_4
-[60] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8186e20>, 'c'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8186fd0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b1e20>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b14f0>, 'n')}
-[61] : We want to build city!
-[61] : Going to build city : (4, 10)
-[61] : Next tile : (6, 8)  u_4
-[61] : {'u_1': (<lux.game_map.Position object at 0x7fbaf816d8b0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816d490>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816d520>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf816d910>, 'n')}
+[58] : Error : list index out of range
+
+[59] : True , 470.0
+
+[60] : True , 470.0
+
+[61] : True , 470.0
+
+[62] : True , 470.0
 [62] : We want to build city!
-[62] : Going to build city : (4, 10)
-[62] : Next tile : (6, 8)  u_4
-[62] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81d2d00>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816d490>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb08162970>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81bb5b0>, 'n')}
-[63] : We want to build city!
-[63] : Going to build city : (4, 10)
-[63] : Next tile : (6, 8)  u_4
-[63] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81acb20>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81acc10>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81ac3d0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81ac760>, 'n')}
+[62] : Error : list index out of range
+
+[63] : True , 470.0
+
+[64] : True , 470.0
 [64] : We want to build city!
-[64] : Going to build city : (4, 10)
-[64] : Next tile : (6, 8)  u_4
-[64] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b5b20>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81acc10>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819e610>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819e8e0>, 'n')}
+[64] : Error : list index out of range
+
+[65] : True , 470.0
 [65] : We want to build city!
-[65] : Going to build city : (4, 10)
-[65] : Next tile : (4, 7)  u_3
-[65] : We want to build city!
-[65] : Going to build city : (4, 10)
-[65] : Next tile : (6, 8)  u_4
-[65] : {'u_1': (<lux.game_map.Position object at 0x7fbb08161fd0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb081615e0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbb081615b0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08161be0>, 'n')}
-[66] : We want to build city!
-[66] : Going to build city : (4, 10)
-[66] : Next tile : (6, 8)  u_4
-[66] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81bf1c0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb081615e0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81bf340>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81bf3d0>, 'n')}
+[65] : Error : list index out of range
+
+[66] : True , 470.0
+
+[67] : True , 470.0
 [67] : We want to build city!
-[67] : Building city, Yay!
-[67] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81d5940>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb081615e0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81bf340>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d5b20>, 'n')}
-[68] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81a02b0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbae815ad60>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8174d60>, 'n'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b9f10>, 'n')}
-[69] : {'u_1': (<lux.game_map.Position object at 0x7fbb08162bb0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbae815ad60>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8174d60>, 'n'), 'u_5': (<lux.game_map.Position object at 0x7fbb08162790>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb081620d0>, 'n')}
+[67] : Error : list index out of range
+
+[68] : True , 470.0
+[68] : We want to build city!
+[68] : Error : list index out of range
+
+[69] : True , 470.0
+
+[70] : True , 470.0
 [70] : We want to build city!
-[70] : Build pos : (5, 10)
-[70] : Going to build city : (5, 10)
-[70] : Next tile : (4, 6)  u_3
-[70] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81c4e50>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c4b20>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816de80>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf816d5b0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf816d310>, 'n')}
-[71] : {'u_1': (<lux.game_map.Position object at 0x7fbaf819e160>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819e6d0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819ee80>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819e430>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819e700>, 'n')}
-[72] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81d5f70>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819e6d0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d5f10>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d5fa0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d5820>, 'n')}
-[73] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4cd0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819e6d0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b4eb0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4160>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b4100>, 'n')}
-[74] : {'u_1': (<lux.game_map.Position object at 0x7fbaf817d2b0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819e6d0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf817d640>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf817d5b0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf817d610>, 'n')}
-[75] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81c5e50>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c5f40>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c5280>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8192130>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81920d0>, 'n')}
-[76] : {'u_1': (<lux.game_map.Position object at 0x7fbaf819e1f0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819ef70>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819ea00>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819eca0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819e2e0>, 'n')}
-[77] : {'u_1': (<lux.game_map.Position object at 0x7fbaf816d850>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816ddc0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbae8175370>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aa550>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aa0a0>, 'n')}
-[78] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4700>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b46d0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b4820>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4be0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b4520>, 'n')}
-[79] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8185a30>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d5eb0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d5340>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d5f10>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d5e80>, 'n')}
-[80] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81afc70>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81afd60>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aff40>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81affd0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81a0250>, 'n')}
-[81] : We want to build city!
-[81] : Going to build city : (5, 10)
-[81] : Next tile : (4, 6)  u_3
-[81] : We want to build city!
-[81] : Going to build city : (5, 10)
-[81] : Next tile : (7, 8)  u_4
-[81] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81bb6a0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81bb730>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81bbc10>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81bbcd0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81bb1c0>, 'n')}
-[82] : We want to build city!
-[82] : Going to build city : (5, 10)
-[82] : Next tile : (7, 8)  u_4
-[82] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81c5220>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c5a60>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c5820>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c5490>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81c5850>, 'n')}
-[83] : We want to build city!
-[83] : Going to build city : (5, 10)
-[83] : Next tile : (7, 8)  u_4
-[83] : {'u_1': (<lux.game_map.Position object at 0x7fbaf817a1c0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c5a60>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf817a3d0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf817a070>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf817a760>, 'n')}
-[84] : We want to build city!
-[84] : Going to build city : (5, 10)
-[84] : Next tile : (4, 6)  u_3
-[84] : We want to build city!
-[84] : Going to build city : (5, 10)
-[84] : Next tile : (7, 8)  u_4
-[84] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81a5dc0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816d970>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816d670>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf816d370>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf816d400>, 'n')}
-[85] : We want to build city!
-[85] : Going to build city : (5, 10)
-[85] : Next tile : (7, 8)  u_4
-[85] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81aaca0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aa130>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aadc0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aad30>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aa880>, 'n')}
-[86] : We want to build city!
-[86] : Going to build city : (5, 10)
-[86] : Next tile : (7, 8)  u_4
-[86] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8185850>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aa130>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb081628e0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb081626a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08162460>, 'n')}
-[87] : We want to build city!
-[87] : Going to build city : (5, 10)
-[87] : Next tile : (4, 6)  u_3
-[87] : We want to build city!
-[87] : Going to build city : (5, 10)
-[87] : Next tile : (7, 8)  u_4
-[87] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81d6a90>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d6ca0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d6eb0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d6ee0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d61f0>, 'n')}
-[88] : We want to build city!
-[88] : Going to build city : (5, 10)
-[88] : Next tile : (7, 8)  u_4
-[88] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81bf460>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81bf670>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81bf880>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81bf7f0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81bfac0>, 'n')}
-[89] : We want to build city!
-[89] : Going to build city : (5, 10)
-[89] : Next tile : (7, 8)  u_4
-[89] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81c5190>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81bf670>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c53d0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c5d90>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81c5c10>, 'n')}
-[90] : We want to build city!
-[90] : Going to build city : (5, 10)
-[90] : Next tile : (4, 6)  u_3
-[90] : We want to build city!
-[90] : Going to build city : (5, 10)
-[90] : Next tile : (7, 8)  u_4
-[90] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4430>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aaf70>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aa880>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aa370>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aa940>, 'n')}
+[70] : Error : list index out of range
+
+[71] : True , 447.0
+
+[72] : True , 424.0
+
+[73] : True , 401.0
+
+[74] : True , 378.0
+
+[75] : True , 355.0
+
+[76] : True , 332.0
+
+[77] : True , 309.0
+
+[78] : False , 286.0
+
+[79] : False , 263.0
+
+[80] : False , 240.0
+
+[81] : False , 240.0
+
+[82] : False , 240.0
+
+[83] : False , 240.0
+[83] : Going back to city
+
+[84] : False , 240.0
+
+[85] : False , 240.0
+[85] : Going back to city
+
+[86] : False , 240.0
+
+[87] : False , 240.0
+[87] : Going back to city
+
+[88] : True , 340.0
+
+[89] : True , 340.0
+
+[90] : True , 340.0
+
+[91] : True , 340.0
 [91] : We want to build city!
-[91] : Going to build city : (5, 10)
-[91] : Next tile : (7, 8)  u_4
-[91] : {'u_1': (<lux.game_map.Position object at 0x7fbaf816daf0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816d070>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816dcd0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf816deb0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf816dbe0>, 'n')}
-[92] : We want to build city!
-[92] : Going to build city : (5, 10)
-[92] : Next tile : (7, 8)  u_4
-[92] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b8400>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816d070>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b85b0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b8730>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b8880>, 'n')}
+[91] : Error : list index out of range
+
+[92] : True , 340.0
+
+[93] : True , 340.0
 [93] : We want to build city!
-[93] : Going to build city : (5, 10)
-[93] : Next tile : (4, 6)  u_3
-[93] : We want to build city!
-[93] : Going to build city : (5, 10)
-[93] : Next tile : (7, 8)  u_4
-[93] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8185c10>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81857c0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81856d0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08162220>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08162b20>, 'n')}
+[93] : Error : list index out of range
+
+[94] : True , 340.0
 [94] : We want to build city!
-[94] : Going to build city : (5, 10)
-[94] : Next tile : (7, 8)  u_4
-[94] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81743d0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81744f0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81746a0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8174700>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8174790>, 'n')}
-[95] : We want to build city!
-[95] : Going to build city : (5, 10)
-[95] : Next tile : (7, 8)  u_4
-[95] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81d58e0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81744f0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81bf7f0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81bf880>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81bf5b0>, 'n')}
+[94] : Error : list index out of range
+
+[95] : True , 340.0
+
+[96] : True , 340.0
 [96] : We want to build city!
-[96] : Going to build city : (5, 10)
-[96] : Next tile : (4, 6)  u_3
-[96] : We want to build city!
-[96] : Going to build city : (5, 10)
-[96] : Next tile : (7, 8)  u_4
-[96] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8199b80>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8199d30>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8199d00>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8199df0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81997f0>, 'n')}
+[96] : Error : list index out of range
+
+[97] : True , 340.0
 [97] : We want to build city!
-[97] : Going to build city : (5, 10)
-[97] : Next tile : (7, 8)  u_4
-[97] : {'u_1': (<lux.game_map.Position object at 0x7fbaf819e250>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819e280>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819ebb0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819e160>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819e190>, 'n')}
-[98] : We want to build city!
-[98] : Going to build city : (5, 10)
-[98] : Next tile : (7, 8)  u_4
-[98] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81baac0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819e280>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81bac10>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81ba160>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81baeb0>, 'n')}
+[97] : Error : list index out of range
+
+[98] : True , 340.0
+
+[99] : True , 340.0
 [99] : We want to build city!
-[99] : Going to build city : (5, 10)
-[99] : Next tile : (4, 6)  u_3
-[99] : We want to build city!
-[99] : Going to build city : (5, 10)
-[99] : Next tile : (7, 8)  u_4
-[99] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81a0ee0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a07f0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a0c70>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a0eb0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81a0430>, 'n')}
+[99] : Error : list index out of range
+
+[100] : True , 340.0
 [100] : We want to build city!
-[100] : Going to build city : (5, 10)
-[100] : Next tile : (7, 8)  u_4
-[100] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8185cd0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8185970>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8185670>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8185dc0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8185730>, 'n')}
-[101] : We want to build city!
-[101] : Going to build city : (5, 10)
-[101] : Next tile : (7, 8)  u_4
-[101] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8174be0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8185970>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8174bb0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8174c70>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8174490>, 'n')}
+[100] : Error : list index out of range
+
+[101] : True , 340.0
+
+[102] : True , 340.0
 [102] : We want to build city!
-[102] : Going to build city : (5, 10)
-[102] : Next tile : (4, 6)  u_3
-[102] : We want to build city!
-[102] : Going to build city : (5, 10)
-[102] : Next tile : (7, 8)  u_4
-[102] : {'u_1': (<lux.game_map.Position object at 0x7fbb08162eb0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08162040>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbb08162b80>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d58e0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d55b0>, 'n')}
+[102] : Error : list index out of range
+
+[103] : True , 340.0
 [103] : We want to build city!
-[103] : Going to build city : (5, 10)
-[103] : Next tile : (7, 8)  u_4
-[103] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81c59a0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c5310>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c5ee0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c5610>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81c5130>, 'n')}
-[104] : We want to build city!
-[104] : Going to build city : (5, 10)
-[104] : Next tile : (7, 8)  u_4
-[104] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81a73d0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c5310>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b4790>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b49a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b47f0>, 'n')}
+[103] : Error : list index out of range
+
+[104] : True , 340.0
+
+[105] : True , 340.0
 [105] : We want to build city!
-[105] : Going to build city : (5, 10)
-[105] : Next tile : (4, 6)  u_3
-[105] : We want to build city!
-[105] : Going to build city : (5, 10)
-[105] : Next tile : (7, 8)  u_4
-[105] : {'u_1': (<lux.game_map.Position object at 0x7fbaf816d280>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816da30>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816d490>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf816d670>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf816dd60>, 'n')}
+[105] : Error : list index out of range
+
+[106] : True , 340.0
 [106] : We want to build city!
-[106] : Going to build city : (5, 10)
-[106] : Next tile : (7, 8)  u_4
-[106] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81aa280>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819e5b0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819ee80>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819e940>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819e730>, 'n')}
-[107] : We want to build city!
-[107] : Going to build city : (5, 10)
-[107] : Next tile : (7, 8)  u_4
-[107] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b9c10>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819e5b0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b9d60>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b9f40>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b9460>, 'n')}
+[106] : Error : list index out of range
+
+[107] : True , 340.0
+
+[108] : True , 340.0
 [108] : We want to build city!
-[108] : Going to build city : (5, 10)
-[108] : Next tile : (4, 6)  u_3
-[108] : We want to build city!
-[108] : Going to build city : (5, 10)
-[108] : Next tile : (7, 8)  u_4
-[108] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81a0d30>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a06a0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a0d00>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a0af0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81a0fd0>, 'n')}
+[108] : Error : list index out of range
+
+[109] : True , 340.0
 [109] : We want to build city!
-[109] : Going to build city : (5, 10)
-[109] : Next tile : (7, 8)  u_4
-[109] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b1eb0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b1e80>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b1ca0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d5b20>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d5160>, 'n')}
-[110] : We want to build city!
-[110] : Going to build city : (5, 10)
-[110] : Next tile : (7, 8)  u_4
-[110] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8196940>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b1e80>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8196970>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8196a60>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8196bb0>, 'n')}
-[111] : {'u_1': (<lux.game_map.Position object at 0x7fbae80c57f0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbae80c59d0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b4fa0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4670>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b4e20>, 'n')}
-[112] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b3df0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b3e80>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b3be0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b3e50>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b3ee0>, 'n')}
-[113] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81aa4f0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aa460>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aadc0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aa9a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aa550>, 'n')}
-[114] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81859a0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8185a60>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8185c10>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbb08125130>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81ab250>, 'n')}
-[115] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81a0b50>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0cd0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a0850>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a0e50>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81a09a0>, 'n')}
-[116] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81d57c0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d5af0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d55e0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d59a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d5250>, 'n')}
-[117] : {'u_1': (<lux.game_map.Position object at 0x7fbaf8192910>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8192af0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8192d90>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8192dc0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8192e20>, 'n')}
-[118] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b4b20>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b49d0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4670>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b4fd0>, 'n')}
-[119] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c5fd0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c5d90>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c52e0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81c55e0>, 'n')}
-[120] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aa1c0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aab20>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aa250>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aaa30>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81aab80>, 'n')}
-[121] : We want to build city!
-[121] : Going to build city : (5, 10)
-[121] : Next tile : (4, 6)  u_3
-[121] : We want to build city!
-[121] : Going to build city : (5, 10)
-[121] : Next tile : (7, 8)  u_4
-[121] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8185790>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8185d60>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81850a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81851c0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf818b850>, 'n')}
-[122] : We want to build city!
-[122] : Going to build city : (5, 10)
-[122] : Next tile : (7, 8)  u_4
-[122] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817d8e0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf817da30>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf817db80>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf817db50>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf817dca0>, 'n')}
-[123] : We want to build city!
-[123] : Going to build city : (5, 10)
-[123] : Next tile : (7, 8)  u_4
-[123] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817d8e0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81abb20>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbae815aa30>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d5cd0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81d5490>, 'n')}
-[124] : We want to build city!
-[124] : Going to build city : (5, 10)
-[124] : Next tile : (4, 6)  u_3
-[124] : We want to build city!
-[124] : Going to build city : (5, 10)
-[124] : Next tile : (7, 8)  u_4
-[124] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816d700>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816d820>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf816da90>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf816d5b0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf816d730>, 'n')}
-[125] : We want to build city!
-[125] : Going to build city : (5, 10)
-[125] : Next tile : (7, 8)  u_4
-[125] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819d460>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819d4c0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819d610>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819d100>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf819d2e0>, 'n')}
-[126] : We want to build city!
-[126] : Going to build city : (5, 10)
-[126] : Next tile : (7, 8)  u_4
-[126] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819d460>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c5e20>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c5ca0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81c5ee0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81c5af0>, 'n')}
-[127] : We want to build city!
-[127] : Going to build city : (5, 10)
-[127] : Next tile : (4, 6)  u_3
-[127] : We want to build city!
-[127] : Going to build city : (5, 10)
-[127] : Next tile : (7, 8)  u_4
-[127] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b4a30>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b47f0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4c40>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b4670>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b4c10>, 'n')}
-[128] : We want to build city!
-[128] : Going to build city : (5, 10)
-[128] : Next tile : (7, 8)  u_4
-[128] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8178370>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8178310>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8178760>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8178340>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81781f0>, 'n')}
-[129] : We want to build city!
-[129] : Going to build city : (5, 10)
-[129] : Next tile : (7, 8)  u_4
-[129] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8178370>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aa5e0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aa1f0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aa8e0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81aa610>, 'n')}
-[130] : We want to build city!
-[130] : Going to build city : (5, 10)
-[130] : Next tile : (4, 6)  u_3
-[130] : We want to build city!
-[130] : Going to build city : (5, 10)
-[130] : Next tile : (7, 8)  u_4
-[130] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8185670>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8185a60>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81859a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81852b0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8185a90>, 'n')}
-[131] : We want to build city!
-[131] : Going to build city : (5, 10)
-[131] : Next tile : (7, 8)  u_4
-[131] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817aa30>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf817aac0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf817af40>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf817adc0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf817ad60>, 'n')}
-[132] : We want to build city!
-[132] : Going to build city : (5, 10)
-[132] : Next tile : (7, 8)  u_4
-[132] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817aa30>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8199f10>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8199ee0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8199dc0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8199e80>, 'n')}
-[133] : We want to build city!
-[133] : Going to build city : (5, 10)
-[133] : Next tile : (4, 6)  u_3
-[133] : We want to build city!
-[133] : Going to build city : (5, 10)
-[133] : Next tile : (7, 8)  u_4
-[133] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b6ee0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b6880>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b6df0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b6d30>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81a2040>, 'n')}
-[134] : We want to build city!
-[134] : Going to build city : (5, 10)
-[134] : Next tile : (7, 8)  u_4
-[134] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08162d90>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb081622b0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb081624f0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08162130>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08162dc0>, 'n')}
-[135] : We want to build city!
-[135] : Going to build city : (5, 10)
-[135] : Next tile : (7, 8)  u_4
-[135] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08162d90>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c5850>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c5be0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81c58e0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81c5bb0>, 'n')}
-[136] : We want to build city!
-[136] : Going to build city : (5, 10)
-[136] : Next tile : (4, 6)  u_3
-[136] : We want to build city!
-[136] : Going to build city : (5, 10)
-[136] : Next tile : (7, 8)  u_4
-[136] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b41f0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b4f10>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4370>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b40a0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b49d0>, 'n')}
-[137] : We want to build city!
-[137] : Going to build city : (5, 10)
-[137] : Next tile : (7, 8)  u_4
-[137] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08163f10>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8178130>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81781f0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8178be0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8178940>, 'n')}
-[138] : We want to build city!
-[138] : Going to build city : (5, 10)
-[138] : Next tile : (7, 8)  u_4
-[138] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08163f10>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a0f40>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a0190>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81a0400>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81a0a60>, 'n')}
-[139] : We want to build city!
-[139] : Going to build city : (5, 10)
-[139] : Next tile : (4, 6)  u_3
-[139] : We want to build city!
-[139] : Going to build city : (5, 10)
-[139] : Next tile : (7, 8)  u_4
-[139] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81bd070>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81bd9a0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81bda00>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81bdbe0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81bdcd0>, 'n')}
-[140] : We want to build city!
-[140] : Going to build city : (5, 10)
-[140] : Next tile : (7, 8)  u_4
-[140] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a53d0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf818dd30>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf818d0a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf818d220>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf818d1c0>, 'n')}
-[141] : We want to build city!
-[141] : Going to build city : (5, 10)
-[141] : Next tile : (7, 8)  u_4
-[141] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a53d0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81998e0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8199370>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8199520>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8199fa0>, 'n')}
-[142] : We want to build city!
-[142] : Going to build city : (5, 10)
-[142] : Next tile : (4, 6)  u_3
-[142] : We want to build city!
-[142] : Going to build city : (5, 10)
-[142] : Next tile : (7, 8)  u_4
-[142] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81af7f0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81af910>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81af940>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81af9a0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81afbb0>, 'n')}
+[109] : Error : list index out of range
+
+[110] : True , 340.0
+
+[111] : True , 317.0
+
+[112] : False , 294.0
+
+[113] : False , 271.0
+
+[114] : False , 248.0
+
+[115] : False , 225.0
+
+[116] : False , 202.0
+
+[117] : False , 179.0
+
+[118] : False , 156.0
+
+[119] : False , 133.0
+
+[120] : False , 110.0
+
+[121] : False , 110.0
+
+[122] : False , 110.0
+
+[123] : False , 110.0
+
+[124] : False , 110.0
+
+[125] : False , 110.0
+
+[126] : False , 110.0
+
+[127] : False , 110.0
+
+[128] : False , 110.0
+
+[129] : False , 110.0
+[129] : Going back to city
+
+[130] : False , 110.0
+
+[131] : False , 110.0
+[131] : Going back to city
+
+[132] : False , 210.0
+
+[133] : False , 210.0
+
+[134] : False , 210.0
+
+[135] : False , 210.0
+[135] : Going back to city
+
+[136] : False , 210.0
+
+[137] : False , 210.0
+[137] : Going back to city
+
+[138] : False , 210.0
+
+[139] : False , 210.0
+[139] : Going back to city
+
+[140] : True , 310.0
+
+[141] : True , 310.0
+
+[142] : True , 310.0
+
+[143] : True , 310.0
 [143] : We want to build city!
-[143] : Going to build city : (5, 10)
-[143] : Next tile : (7, 8)  u_4
-[143] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08162850>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb08162ac0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08162670>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08162fd0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08162790>, 'n')}
+[143] : Error : list index out of range
+
+[144] : True , 310.0
 [144] : We want to build city!
-[144] : Going to build city : (5, 10)
-[144] : Next tile : (7, 8)  u_4
-[144] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08162850>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c9520>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c9610>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81855e0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8185df0>, 'n')}
+[144] : Error : list index out of range
+
+[145] : True , 310.0
 [145] : We want to build city!
-[145] : Going to build city : (5, 10)
-[145] : Next tile : (4, 6)  u_3
-[145] : We want to build city!
-[145] : Going to build city : (5, 10)
-[145] : Next tile : (7, 8)  u_4
-[145] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b4940>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b4130>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4df0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b4f40>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b4970>, 'n')}
-[146] : We want to build city!
-[146] : Going to build city : (5, 10)
-[146] : Next tile : (7, 8)  u_4
-[146] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817c640>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf817c730>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf817c760>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf817c940>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf817c9d0>, 'n')}
-[147] : We want to build city!
-[147] : Going to build city : (5, 10)
-[147] : Next tile : (7, 8)  u_4
-[147] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817c640>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a0c70>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a05e0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8177520>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8177970>, 'n')}
-[148] : We want to build city!
-[148] : Going to build city : (5, 10)
-[148] : Next tile : (4, 6)  u_3
-[148] : We want to build city!
-[148] : Going to build city : (5, 10)
-[148] : Next tile : (7, 8)  u_4
-[148] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d54f0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d56a0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d5ca0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d5b20>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8199c40>, 'n')}
+[145] : Error : list index out of range
+
+[146] : True , 410.0
+
+[147] : True , 410.0
+
+[148] : True , 410.0
+
+[149] : True , 410.0
 [149] : We want to build city!
-[149] : Going to build city : (5, 10)
-[149] : Next tile : (7, 8)  u_4
-[149] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8188ca0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8188d90>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8188dc0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8188fd0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8188eb0>, 'n')}
+[149] : Error : list index out of range
+
+[150] : True , 410.0
 [150] : We want to build city!
-[150] : Going to build city : (5, 10)
-[150] : Next tile : (7, 8)  u_4
-[150] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8188ca0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb08162160>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb081623a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb081627f0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb081626d0>, 'n')}
-[151] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a8c40>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a8e80>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a8d60>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81a8a30>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81a8640>, 'n')}
-[152] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819eb50>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819e7c0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4df0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b47f0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b40d0>, 'n')}
-[153] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8185700>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8185910>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8185f10>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8185220>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81856a0>, 'n')}
-[154] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aa490>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aabe0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aa0a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aa430>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbae8175d60>, 'n')}
-[155] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d55e0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8199190>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8199430>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81995e0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8199c40>, 'n')}
-[156] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816d340>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819d460>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819d9a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819d220>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf819d1f0>, 'n')}
-[157] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81cfb20>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81cfaf0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81cfdc0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81cfc10>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81cfee0>, 'n')}
-[158] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c5dc0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c5280>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c5fa0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbae80c5820>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbae80c5850>, 'n')}
-[159] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819e310>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819ed30>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819e490>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819ea30>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf819ecd0>, 'n')}
-[160] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8185b50>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8185910>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8185e80>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81854f0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8185970>, 'n')}
-[161] : We want to build city!
-[161] : Going to build city : (5, 10)
-[161] : Next tile : (4, 6)  u_3
-[161] : We want to build city!
-[161] : Going to build city : (5, 10)
-[161] : Next tile : (7, 8)  u_4
-[161] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb081616a0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbb081615b0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08161880>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08161ac0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81a0d60>, 'n')}
-[162] : We want to build city!
-[162] : Going to build city : (5, 10)
-[162] : Next tile : (7, 8)  u_4
-[162] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a9a30>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a9a90>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a9df0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81a9dc0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81a9e50>, 'n')}
-[163] : We want to build city!
-[163] : Going to build city : (5, 10)
-[163] : Next tile : (7, 8)  u_4
-[163] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a9a30>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b4b20>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4ca0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b40d0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b4910>, 'n')}
-[164] : We want to build city!
-[164] : Going to build city : (5, 10)
-[164] : Next tile : (4, 6)  u_3
-[164] : We want to build city!
-[164] : Going to build city : (5, 10)
-[164] : Next tile : (7, 8)  u_4
-[164] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8181d60>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8181df0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8181e50>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8181610>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8181100>, 'n')}
-[165] : We want to build city!
-[165] : Going to build city : (5, 10)
-[165] : Next tile : (7, 8)  u_4
-[165] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8176a30>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8176d00>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8176d30>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8176be0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8176f70>, 'n')}
-[166] : We want to build city!
-[166] : Going to build city : (5, 10)
-[166] : Next tile : (7, 8)  u_4
-[166] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8176a30>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819ebe0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbae80c5820>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbae80c58e0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81abb20>, 'n')}
-[167] : We want to build city!
-[167] : Going to build city : (5, 10)
-[167] : Next tile : (4, 6)  u_3
-[167] : We want to build city!
-[167] : Going to build city : (5, 10)
-[167] : Next tile : (7, 8)  u_4
-[167] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81ab700>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81ab910>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81abd60>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81ab520>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81ab340>, 'n')}
-[168] : We want to build city!
-[168] : Going to build city : (5, 10)
-[168] : Next tile : (7, 8)  u_4
-[168] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08160340>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a08e0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a09d0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81a0d30>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81a0910>, 'n')}
-[169] : We want to build city!
-[169] : Going to build city : (5, 10)
-[169] : Next tile : (7, 8)  u_4
-[169] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08160340>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81853a0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8185130>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81855b0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8185bb0>, 'n')}
-[170] : We want to build city!
-[170] : Going to build city : (5, 10)
-[170] : Next tile : (4, 6)  u_3
-[170] : We want to build city!
-[170] : Going to build city : (5, 10)
-[170] : Next tile : (7, 8)  u_4
-[170] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b28e0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b2910>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b2ac0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b2e80>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b2cd0>, 'n')}
-[171] : We want to build city!
-[171] : Going to build city : (5, 10)
-[171] : Next tile : (7, 8)  u_4
-[171] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8199160>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8199f10>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8199d90>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819e280>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf819ecd0>, 'n')}
-[172] : We want to build city!
-[172] : Going to build city : (5, 10)
-[172] : Next tile : (7, 8)  u_4
-[172] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8199160>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b4160>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4d90>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b4820>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b4e50>, 'n')}
-[173] : We want to build city!
-[173] : Going to build city : (5, 10)
-[173] : Next tile : (4, 6)  u_3
-[173] : We want to build city!
-[173] : Going to build city : (5, 10)
-[173] : Next tile : (7, 8)  u_4
-[173] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aaa00>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aaf40>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aa2b0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aaa90>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81aaac0>, 'n')}
-[174] : We want to build city!
-[174] : Going to build city : (5, 10)
-[174] : Next tile : (7, 8)  u_4
-[174] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf818adc0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf818aeb0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf818af10>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf818a610>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbae80c57f0>, 'n')}
-[175] : We want to build city!
-[175] : Going to build city : (5, 10)
-[175] : Next tile : (7, 8)  u_4
-[175] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf818adc0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb081601f0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb081600d0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08160c70>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08160190>, 'n')}
+[150] : Error : list index out of range
+
+[151] : True , 387.0
+
+[152] : True , 364.0
+
+[153] : True , 341.0
+
+[154] : True , 318.0
+
+[155] : False , 295.0
+
+[156] : False , 272.0
+
+[157] : False , 249.0
+
+[158] : False , 226.0
+
+[159] : False , 203.0
+
+[160] : False , 180.0
+
+[161] : False , 180.0
+
+[162] : False , 180.0
+[162] : Going back to city
+
+[163] : False , 180.0
+
+[164] : False , 180.0
+[164] : Going back to city
+
+[165] : False , 180.0
+
+[166] : False , 180.0
+[166] : Going back to city
+
+[167] : False , 180.0
+
+[168] : False , 180.0
+[168] : Going back to city
+
+[169] : False , 280.0
+
+[170] : False , 280.0
+
+[171] : False , 280.0
+
+[172] : False , 280.0
+[172] : Going back to city
+
+[173] : True , 380.0
+
+[174] : True , 380.0
+
+[175] : True , 380.0
+
+[176] : True , 380.0
 [176] : We want to build city!
-[176] : Going to build city : (5, 10)
-[176] : Next tile : (4, 6)  u_3
-[176] : We want to build city!
-[176] : Going to build city : (5, 10)
-[176] : Next tile : (7, 8)  u_4
-[176] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d5490>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d5400>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d5cd0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81ae670>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81ae070>, 'n')}
+[176] : Error : list index out of range
+
+[177] : True , 380.0
 [177] : We want to build city!
-[177] : Going to build city : (5, 10)
-[177] : Next tile : (7, 8)  u_4
-[177] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c90a0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c90d0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c9310>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81c92e0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81c9460>, 'n')}
+[177] : Error : list index out of range
+
+[178] : True , 380.0
 [178] : We want to build city!
-[178] : Going to build city : (5, 10)
-[178] : Next tile : (7, 8)  u_4
-[178] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c90a0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a2130>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a2460>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81a24f0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81bde80>, 'n')}
-[179] : We want to build city!
-[179] : Going to build city : (5, 10)
-[179] : Next tile : (4, 6)  u_3
-[179] : We want to build city!
-[179] : Going to build city : (5, 10)
-[179] : Next tile : (7, 8)  u_4
-[179] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b4250>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b41f0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4be0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b4220>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b4ca0>, 'n')}
+[178] : Error : list index out of range
+
+[179] : True , 380.0
+
+[180] : True , 380.0
 [180] : We want to build city!
-[180] : Going to build city : (5, 10)
-[180] : Next tile : (7, 8)  u_4
-[180] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8193fa0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8193f70>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81cb490>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81cb3d0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81cb250>, 'n')}
+[180] : Error : list index out of range
+
+[181] : True , 380.0
 [181] : We want to build city!
-[181] : Going to build city : (5, 10)
-[181] : Next tile : (7, 8)  u_4
-[181] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8193fa0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c5910>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c5280>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81c5fa0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81c5130>, 'n')}
-[182] : We want to build city!
-[182] : Going to build city : (5, 10)
-[182] : Next tile : (4, 6)  u_3
-[182] : We want to build city!
-[182] : Going to build city : (5, 10)
-[182] : Next tile : (7, 8)  u_4
-[182] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbae8175fd0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aaee0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aac10>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aaa00>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81aa160>, 'n')}
+[181] : Error : list index out of range
+
+[182] : True , 380.0
+
+[183] : True , 380.0
 [183] : We want to build city!
-[183] : Going to build city : (5, 10)
-[183] : Next tile : (7, 8)  u_4
-[183] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8179d30>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8179130>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8179100>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81885b0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf818c0d0>, 'n')}
+[183] : Error : list index out of range
+
+[184] : True , 380.0
 [184] : We want to build city!
-[184] : Going to build city : (5, 10)
-[184] : Next tile : (7, 8)  u_4
-[184] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8179d30>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8199880>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8199ca0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8199430>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81998e0>, 'n')}
-[185] : We want to build city!
-[185] : Going to build city : (5, 10)
-[185] : Next tile : (4, 6)  u_3
-[185] : We want to build city!
-[185] : Going to build city : (5, 10)
-[185] : Next tile : (7, 8)  u_4
-[185] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08163730>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbb081630a0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8185f10>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81855b0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8185640>, 'n')}
-[186] : We want to build city!
-[186] : Going to build city : (5, 10)
-[186] : Next tile : (7, 8)  u_4
-[186] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c9d30>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c9fd0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c9f40>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81c93d0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81c9970>, 'n')}
-[187] : We want to build city!
-[187] : Going to build city : (5, 10)
-[187] : Next tile : (7, 8)  u_4
-[187] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c9d30>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81836d0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8183a30>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8183850>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8183af0>, 'n')}
+[184] : Error : list index out of range
+
+[185] : True , 480.0
+
+[186] : True , 480.0
+
+[187] : True , 480.0
+
+[188] : True , 480.0
 [188] : We want to build city!
-[188] : Going to build city : (5, 10)
-[188] : Next tile : (4, 6)  u_3
-[188] : We want to build city!
-[188] : Going to build city : (5, 10)
-[188] : Next tile : (7, 8)  u_4
-[188] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b49d0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b4f70>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4b50>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b4be0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08162430>, 'n')}
-[189] : We want to build city!
-[189] : Going to build city : (5, 10)
-[189] : Next tile : (7, 8)  u_4
-[189] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d3790>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d3880>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d3a30>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d3b20>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81d3b50>, 'n')}
+[188] : Error : list index out of range
+
+[189] : True , 480.0
+
+[190] : True , 480.0
 [190] : We want to build city!
-[190] : Going to build city : (5, 10)
-[190] : Next tile : (7, 8)  u_4
-[190] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d3790>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8176160>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c5430>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81c5490>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81c5eb0>, 'n')}
-[191] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aaf10>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aa3a0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aa970>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aa280>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81aa1c0>, 'n')}
-[192] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8179be0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8179880>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81799d0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8179b50>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8179520>, 'n')}
-[193] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8199400>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8199f70>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8199040>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8199d90>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8199430>, 'n')}
-[194] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8185400>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8185b50>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8185910>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8185b80>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8185d30>, 'n')}
-[195] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0ee0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a0490>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a0b50>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81a05b0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81a0250>, 'n')}
-[196] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbae80c5b20>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbae80c59d0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbb08163310>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb081633a0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08163d00>, 'n')}
-[197] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08162280>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbb08162d30>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbb08162bb0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08162e80>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb081625e0>, 'n')}
-[198] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819ebe0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819e790>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819e670>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81bd880>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81bdfd0>, 'n')}
-[199] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817ed60>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf817edc0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf817ea60>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf817efa0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf817e0d0>, 'n')}
-[200] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8199a90>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81996d0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8199940>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8199880>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81993d0>, 'n')}
-[201] : We want to build city!
-[201] : Going to build city : (5, 10)
-[201] : Next tile : (4, 6)  u_3
-[201] : We want to build city!
-[201] : Going to build city : (5, 10)
-[201] : Next tile : (7, 8)  u_4
-[201] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c42b0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c4220>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8179520>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8179c10>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8179b80>, 'n')}
-[202] : We want to build city!
-[202] : Going to build city : (5, 10)
-[202] : Next tile : (7, 8)  u_4
-[202] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b4310>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b4ac0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b44c0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8188190>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8188040>, 'n')}
-[203] : We want to build city!
-[203] : Going to build city : (5, 10)
-[203] : Next tile : (7, 8)  u_4
-[203] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b4310>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf818efd0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf818eb20>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf818ef40>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf818eeb0>, 'n')}
-[204] : We want to build city!
-[204] : Going to build city : (5, 10)
-[204] : Next tile : (4, 6)  u_3
-[204] : We want to build city!
-[204] : Going to build city : (5, 10)
-[204] : Next tile : (7, 8)  u_4
-[204] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0880>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a0970>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbae8175370>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b8700>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b8820>, 'n')}
-[205] : We want to build city!
-[205] : Going to build city : (5, 10)
-[205] : Next tile : (7, 8)  u_4
-[205] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d5af0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d5280>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d52e0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d5fa0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81d5250>, 'n')}
-[206] : We want to build city!
-[206] : Going to build city : (5, 10)
-[206] : Next tile : (7, 8)  u_4
-[206] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d5af0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb08162f70>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb081627c0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08162970>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08162250>, 'n')}
-[207] : We want to build city!
-[207] : Going to build city : (5, 10)
-[207] : Next tile : (4, 6)  u_3
-[207] : We want to build city!
-[207] : Going to build city : (5, 10)
-[207] : Next tile : (7, 8)  u_4
-[207] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819ecd0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819e790>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819edf0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819e280>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf819e220>, 'n')}
-[208] : We want to build city!
-[208] : Going to build city : (5, 10)
-[208] : Next tile : (7, 8)  u_4
-[208] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81af730>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81af880>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81afa90>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81afc10>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81afb80>, 'n')}
-[209] : We want to build city!
-[209] : Going to build city : (5, 10)
-[209] : Next tile : (7, 8)  u_4
-[209] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81af730>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b4fd0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4640>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b4370>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b4550>, 'n')}
-[210] : We want to build city!
-[210] : Going to build city : (5, 10)
-[210] : Next tile : (4, 6)  u_3
-[210] : We want to build city!
-[210] : Going to build city : (5, 10)
-[210] : Next tile : (7, 8)  u_4
-[210] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81cb040>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81cb1f0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81cb310>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81cb460>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81cb4c0>, 'n')}
-[211] : We want to build city!
-[211] : Going to build city : (5, 10)
-[211] : Next tile : (7, 8)  u_4
-[211] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b5df0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b5430>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b5040>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b5a00>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81a0100>, 'n')}
-[212] : We want to build city!
-[212] : Going to build city : (5, 10)
-[212] : Next tile : (7, 8)  u_4
-[212] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b5df0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81852b0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8185eb0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8185c10>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8185dc0>, 'n')}
-[213] : We want to build city!
-[213] : Going to build city : (5, 10)
-[213] : Next tile : (4, 6)  u_3
-[213] : We want to build city!
-[213] : Going to build city : (5, 10)
-[213] : Next tile : (7, 8)  u_4
-[213] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf818cf40>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf818ceb0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf818cfd0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf818cd60>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf818c0d0>, 'n')}
-[214] : We want to build city!
-[214] : Going to build city : (5, 10)
-[214] : Next tile : (7, 8)  u_4
-[214] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816d940>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816d6a0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf816d310>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf816d5e0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf816db80>, 'n')}
+[190] : Error : list index out of range
+
+[191] : True , 457.0
+
+[192] : True , 434.0
+
+[193] : True , 411.0
+
+[194] : True , 388.0
+
+[195] : True , 365.0
+
+[196] : True , 342.0
+
+[197] : True , 319.0
+
+[198] : False , 296.0
+
+[199] : False , 273.0
+
+[200] : False , 250.0
+
+[201] : False , 250.0
+
+[202] : False , 250.0
+
+[203] : False , 250.0
+
+[204] : False , 250.0
+
+[205] : False , 250.0
+
+[206] : False , 250.0
+
+[207] : False , 250.0
+
+[208] : False , 250.0
+
+[209] : False , 250.0
+[209] : Going back to city
+
+[210] : False , 250.0
+
+[211] : False , 250.0
+[211] : Going back to city
+
+[212] : True , 350.0
+
+[213] : True , 350.0
+
+[214] : True , 350.0
+
+[215] : True , 350.0
 [215] : We want to build city!
-[215] : Going to build city : (5, 10)
-[215] : Next tile : (7, 8)  u_4
-[215] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816d940>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8176fd0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8176ca0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8176610>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81d7070>, 'n')}
-[216] : We want to build city!
-[216] : Going to build city : (5, 10)
-[216] : Next tile : (4, 6)  u_3
-[216] : We want to build city!
-[216] : Going to build city : (5, 10)
-[216] : Next tile : (7, 8)  u_4
-[216] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819e0d0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819e790>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819edc0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819e1c0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf819e190>, 'n')}
-[217] : We want to build city!
-[217] : Going to build city : (5, 10)
-[217] : Next tile : (7, 8)  u_4
-[217] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81afaf0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81af220>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81af3d0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81af1f0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81af520>, 'n')}
-[218] : We want to build city!
-[218] : Going to build city : (5, 10)
-[218] : Next tile : (7, 8)  u_4
-[218] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81afaf0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b49d0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4a00>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b4190>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b43d0>, 'n')}
+[215] : Error : list index out of range
+
+[216] : True , 450.0
+
+[217] : True , 450.0
+
+[218] : True , 450.0
+
+[219] : True , 450.0
 [219] : We want to build city!
-[219] : Going to build city : (5, 10)
-[219] : Next tile : (4, 6)  u_3
-[219] : We want to build city!
-[219] : Going to build city : (5, 10)
-[219] : Next tile : (7, 8)  u_4
-[219] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbae8175fd0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8179640>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8179ee0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8179070>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8179b80>, 'n')}
-[220] : We want to build city!
-[220] : Going to build city : (5, 10)
-[220] : Next tile : (7, 8)  u_4
-[220] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b52b0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b54c0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b5760>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b5f10>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b5d60>, 'n')}
-[221] : We want to build city!
-[221] : Going to build city : (5, 10)
-[221] : Next tile : (7, 8)  u_4
-[221] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b52b0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf817cdf0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf817cee0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf817ce20>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf817c970>, 'n')}
-[222] : We want to build city!
-[222] : Going to build city : (5, 10)
-[222] : Next tile : (4, 6)  u_3
-[222] : We want to build city!
-[222] : Going to build city : (5, 10)
-[222] : Next tile : (7, 8)  u_4
-[222] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0d60>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a0370>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8186190>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81865b0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8186d90>, 'n')}
+[219] : Error : list index out of range
+
+[220] : True , 550.0
+
+[221] : True , 550.0
+
+[222] : True , 550.0
+
+[223] : True , 550.0
 [223] : We want to build city!
-[223] : Going to build city : (5, 10)
-[223] : Next tile : (7, 8)  u_4
-[223] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf818ea60>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816d640>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf816dbb0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf816dbe0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf816d9d0>, 'n')}
-[224] : We want to build city!
-[224] : Going to build city : (5, 10)
-[224] : Next tile : (7, 8)  u_4
-[224] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf818ea60>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb08162910>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08162400>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08162250>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08162b80>, 'n')}
+[223] : Error : list index out of range
+
+[224] : True , 550.0
+
+[225] : True , 550.0
 [225] : We want to build city!
-[225] : Going to build city : (5, 10)
-[225] : Next tile : (4, 6)  u_3
-[225] : We want to build city!
-[225] : Going to build city : (5, 10)
-[225] : Next tile : (7, 8)  u_4
-[225] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819e730>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819e7f0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819e160>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819e760>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf819ed30>, 'n')}
+[225] : Error : list index out of range
+
+[226] : True , 550.0
 [226] : We want to build city!
-[226] : Going to build city : (5, 10)
-[226] : Next tile : (7, 8)  u_4
-[226] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817de80>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf817df70>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81af460>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81affa0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81af1f0>, 'n')}
-[227] : We want to build city!
-[227] : Going to build city : (5, 10)
-[227] : Next tile : (7, 8)  u_4
-[227] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817de80>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb081601c0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08160520>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08160ca0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08160b80>, 'n')}
+[226] : Error : list index out of range
+
+[227] : True , 550.0
+
+[228] : True , 550.0
 [228] : We want to build city!
-[228] : Going to build city : (5, 10)
-[228] : Next tile : (4, 6)  u_3
-[228] : We want to build city!
-[228] : Going to build city : (5, 10)
-[228] : Next tile : (7, 8)  u_4
-[228] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81ba700>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81ba850>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81ba8b0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81ba9a0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81baac0>, 'n')}
+[228] : Error : list index out of range
+
+[229] : True , 550.0
 [229] : We want to build city!
-[229] : Going to build city : (5, 10)
-[229] : Next tile : (7, 8)  u_4
-[229] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8199670>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8199c10>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81999a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08163f40>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb081633a0>, 'n')}
-[230] : We want to build city!
-[230] : Going to build city : (5, 10)
-[230] : Next tile : (7, 8)  u_4
-[230] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8199670>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8184fd0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8185dc0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8185c10>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8185a60>, 'n')}
-[231] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8195bb0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8195e50>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8195a90>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8195d90>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8195d30>, 'n')}
-[232] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf818efd0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf818e4f0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf818eeb0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf818e520>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf818efa0>, 'n')}
-[233] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08162580>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbb08162190>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbb08162610>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08162f40>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08162460>, 'n')}
-[234] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816d5e0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816d2e0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf816dc40>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf816deb0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf816d3a0>, 'n')}
-[235] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81ab9a0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81ab820>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8188040>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8188220>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81882b0>, 'n')}
-[236] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819e670>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819ef40>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819e100>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819e430>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf819efd0>, 'n')}
-[237] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08160250>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819d1c0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819d220>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819d2b0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf819d4c0>, 'n')}
-[238] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81cfe80>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81cffd0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81cf220>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81cf1f0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81994c0>, 'n')}
-[239] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c5b80>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c5e20>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c5b50>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81c5790>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81c5520>, 'n')}
-[240] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a01c0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aa130>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aabb0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aa9a0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81aaaf0>, 'n')}
-[241] : We want to build city!
-[241] : Going to build city : (5, 10)
-[241] : Next tile : (4, 6)  u_3
-[241] : We want to build city!
-[241] : Going to build city : (5, 10)
-[241] : Next tile : (7, 8)  u_4
-[241] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81852e0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8185730>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81854c0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8185df0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8185820>, 'n')}
+[229] : Error : list index out of range
+
+[230] : True , 550.0
+
+[231] : True , 527.0
+
+[232] : True , 504.0
+
+[233] : True , 481.0
+
+[234] : True , 458.0
+
+[235] : True , 435.0
+
+[236] : True , 514.0
+
+[237] : True , 491.0
+
+[238] : True , 468.0
+
+[239] : True , 445.0
+
+[240] : True , 422.0
+
+[241] : True , 422.0
+
+[242] : True , 422.0
 [242] : We want to build city!
-[242] : Going to build city : (5, 10)
-[242] : Next tile : (7, 8)  u_4
-[242] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08163490>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb081635e0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08163550>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb081635b0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08125130>, 'n')}
+[242] : Error : list index out of range
+
+[243] : True , 422.0
 [243] : We want to build city!
-[243] : Going to build city : (5, 10)
-[243] : Next tile : (7, 8)  u_4
-[243] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08163490>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8183460>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81830a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8183b20>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8183100>, 'n')}
-[244] : We want to build city!
-[244] : Going to build city : (5, 10)
-[244] : Next tile : (4, 6)  u_3
-[244] : We want to build city!
-[244] : Going to build city : (5, 10)
-[244] : Next tile : (7, 8)  u_4
-[244] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81769d0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81764c0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8176a30>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81765b0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8176e80>, 'n')}
+[243] : Error : list index out of range
+
+[244] : True , 422.0
+
+[245] : True , 422.0
 [245] : We want to build city!
-[245] : Going to build city : (5, 10)
-[245] : Next tile : (7, 8)  u_4
-[245] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816dc10>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb08161220>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb081610a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08161b80>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08161a00>, 'n')}
+[245] : Error : list index out of range
+
+[246] : True , 422.0
 [246] : We want to build city!
-[246] : Going to build city : (5, 10)
-[246] : Next tile : (7, 8)  u_4
-[246] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816dc10>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81bd490>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81bd580>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81bd6a0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81bd700>, 'n')}
-[247] : We want to build city!
-[247] : Going to build city : (5, 10)
-[247] : Next tile : (4, 6)  u_3
-[247] : We want to build city!
-[247] : Going to build city : (5, 10)
-[247] : Next tile : (7, 8)  u_4
-[247] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819e850>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819e190>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819e6d0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819e2b0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf819e640>, 'n')}
+[246] : Error : list index out of range
+
+[247] : True , 422.0
+
+[248] : True , 422.0
 [248] : We want to build city!
-[248] : Going to build city : (5, 10)
-[248] : Next tile : (7, 8)  u_4
-[248] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c5310>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c5c10>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c5d90>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81c5b20>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81c5160>, 'n')}
+[248] : Error : list index out of range
+
+[249] : True , 422.0
 [249] : We want to build city!
-[249] : Going to build city : (5, 10)
-[249] : Next tile : (7, 8)  u_4
-[249] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c5310>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8199fa0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8199e50>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8199970>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8199250>, 'n')}
-[250] : We want to build city!
-[250] : Going to build city : (5, 10)
-[250] : Next tile : (4, 6)  u_3
-[250] : We want to build city!
-[250] : Going to build city : (5, 10)
-[250] : Next tile : (7, 8)  u_4
-[250] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81794f0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8179700>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8179ee0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8179100>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8179310>, 'n')}
+[249] : Error : list index out of range
+
+[250] : True , 422.0
+
+[251] : True , 422.0
 [251] : We want to build city!
-[251] : Going to build city : (5, 10)
-[251] : Next tile : (7, 8)  u_4
-[251] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0be0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a0e20>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a00d0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81a09d0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81a01f0>, 'n')}
+[251] : Error : list index out of range
+
+[252] : True , 422.0
 [252] : We want to build city!
-[252] : Going to build city : (5, 10)
-[252] : Next tile : (7, 8)  u_4
-[252] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0be0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d5be0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d5790>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d5bb0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81d59d0>, 'n')}
-[253] : We want to build city!
-[253] : Going to build city : (5, 10)
-[253] : Next tile : (4, 6)  u_3
-[253] : We want to build city!
-[253] : Going to build city : (5, 10)
-[253] : Next tile : (7, 8)  u_4
-[253] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8196dc0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8196d30>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8196310>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8196850>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81960a0>, 'n')}
+[252] : Error : list index out of range
+
+[253] : True , 422.0
+
+[254] : True , 422.0
 [254] : We want to build city!
-[254] : Going to build city : (5, 10)
-[254] : Next tile : (7, 8)  u_4
-[254] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81af8b0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81af940>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81afac0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81afe50>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81afd00>, 'n')}
+[254] : Error : list index out of range
+
+[255] : True , 422.0
 [255] : We want to build city!
-[255] : Going to build city : (5, 10)
-[255] : Next tile : (7, 8)  u_4
-[255] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81af8b0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb08162550>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08162190>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08162d60>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08162160>, 'n')}
-[256] : We want to build city!
-[256] : Going to build city : (5, 10)
-[256] : Next tile : (4, 6)  u_3
-[256] : We want to build city!
-[256] : Going to build city : (5, 10)
-[256] : Next tile : (7, 8)  u_4
-[256] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8176df0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8176940>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81765e0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8176b50>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8176e80>, 'n')}
+[255] : Error : list index out of range
+
+[256] : True , 422.0
+
+[257] : True , 422.0
 [257] : We want to build city!
-[257] : Going to build city : (5, 10)
-[257] : Next tile : (7, 8)  u_4
-[257] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81ab3d0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81abe50>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81abbb0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aba60>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81ab370>, 'n')}
+[257] : Error : list index out of range
+
+[258] : True , 422.0
 [258] : We want to build city!
-[258] : Going to build city : (5, 10)
-[258] : Next tile : (7, 8)  u_4
-[258] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81ab3d0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb081253d0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8199d60>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81995e0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8199460>, 'n')}
-[259] : We want to build city!
-[259] : Going to build city : (5, 10)
-[259] : Next tile : (4, 6)  u_3
-[259] : We want to build city!
-[259] : Going to build city : (5, 10)
-[259] : Next tile : (7, 8)  u_4
-[259] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8185880>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81851c0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8185310>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8185fa0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8185910>, 'n')}
+[258] : Error : list index out of range
+
+[259] : True , 422.0
+
+[260] : True , 422.0
 [260] : We want to build city!
-[260] : Going to build city : (5, 10)
-[260] : Next tile : (7, 8)  u_4
-[260] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aadc0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aab20>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aa130>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aa520>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81aa9a0>, 'n')}
+[260] : Error : list index out of range
+
+[261] : True , 422.0
 [261] : We want to build city!
-[261] : Going to build city : (5, 10)
-[261] : Next tile : (7, 8)  u_4
-[261] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aadc0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d5df0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d5100>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d5520>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81d57c0>, 'n')}
-[262] : We want to build city!
-[262] : Going to build city : (5, 10)
-[262] : Next tile : (4, 6)  u_3
-[262] : We want to build city!
-[262] : Going to build city : (5, 10)
-[262] : Next tile : (7, 8)  u_4
-[262] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817a3a0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf817a670>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf817ab50>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf817aaf0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf817a160>, 'n')}
+[261] : Error : list index out of range
+
+[262] : True , 422.0
+
+[263] : True , 422.0
 [263] : We want to build city!
-[263] : Going to build city : (5, 10)
-[263] : Next tile : (7, 8)  u_4
-[263] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c5e20>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf817f250>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf817ffa0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf817f2b0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf817f040>, 'n')}
+[263] : Error : list index out of range
+
+[264] : True , 422.0
 [264] : We want to build city!
-[264] : Going to build city : (5, 10)
-[264] : Next tile : (7, 8)  u_4
-[264] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c5e20>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb08162910>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08162490>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81936a0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81936d0>, 'n')}
-[265] : We want to build city!
-[265] : Going to build city : (5, 10)
-[265] : Next tile : (4, 6)  u_3
-[265] : We want to build city!
-[265] : Going to build city : (5, 10)
-[265] : Next tile : (7, 8)  u_4
-[265] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81930a0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8193130>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8193340>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81933d0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81935b0>, 'n')}
+[264] : Error : list index out of range
+
+[265] : True , 422.0
+
+[266] : True , 422.0
 [266] : We want to build city!
-[266] : Going to build city : (5, 10)
-[266] : Next tile : (7, 8)  u_4
-[266] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817c7c0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf817ca30>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf817c670>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf817c5e0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf817ceb0>, 'n')}
+[266] : Error : list index out of range
+
+[267] : True , 422.0
 [267] : We want to build city!
-[267] : Going to build city : (5, 10)
-[267] : Next tile : (7, 8)  u_4
-[267] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817c7c0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81891f0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8177280>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8177070>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8177100>, 'n')}
-[268] : We want to build city!
-[268] : Going to build city : (5, 10)
-[268] : Next tile : (4, 6)  u_3
-[268] : We want to build city!
-[268] : Going to build city : (5, 10)
-[268] : Next tile : (7, 8)  u_4
-[268] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81889d0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81886d0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8188280>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8188910>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8188af0>, 'n')}
+[267] : Error : list index out of range
+
+[268] : True , 422.0
+
+[269] : True , 422.0
 [269] : We want to build city!
-[269] : Going to build city : (5, 10)
-[269] : Next tile : (7, 8)  u_4
-[269] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81996d0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8199f40>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8199f10>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8199a60>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8199e20>, 'n')}
+[269] : Error : list index out of range
+
+[270] : True , 422.0
 [270] : We want to build city!
-[270] : Going to build city : (5, 10)
-[270] : Next tile : (7, 8)  u_4
-[270] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81996d0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb08160be0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08160940>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbae815aa30>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81bad00>, 'n')}
-[271] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aa6d0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aa070>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aad90>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aac10>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81aafa0>, 'n')}
-[272] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d5b80>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d58b0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d5490>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d5b20>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81d5160>, 'n')}
-[273] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81955b0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8195280>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8195550>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8195850>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81957f0>, 'n')}
-[274] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816dac0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816d880>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf816d4c0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf816d7c0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf816db20>, 'n')}
-[275] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81729d0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8172e50>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8172a90>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8172eb0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8172820>, 'n')}
-[276] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819ebb0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819ec40>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b27f0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b29d0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b29a0>, 'n')}
-[277] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb081610d0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbb08161f40>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbb081617c0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08161370>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08161b80>, 'n')}
-[278] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81812b0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81813d0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81813a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8181400>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8181670>, 'n')}
-[279] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81881c0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8188430>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81883a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8188e80>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8188850>, 'n')}
-[280] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aa850>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aaa90>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aa3a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aa5b0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81aa160>, 'n')}
-[281] : We want to build city!
-[281] : Going to build city : (5, 10)
-[281] : Next tile : (4, 6)  u_3
-[281] : We want to build city!
-[281] : Going to build city : (5, 10)
-[281] : Next tile : (7, 8)  u_4
-[281] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81799d0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8179f70>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8179580>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8179e20>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8179e80>, 'n')}
-[282] : We want to build city!
-[282] : Going to build city : (5, 10)
-[282] : Next tile : (7, 8)  u_4
-[282] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb081626a0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb08162670>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08162340>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb081627c0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08162df0>, 'n')}
-[283] : We want to build city!
-[283] : Going to build city : (5, 10)
-[283] : Next tile : (7, 8)  u_4
-[283] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb081626a0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81cfbe0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81cf130>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81cf700>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81cfa30>, 'n')}
-[284] : We want to build city!
-[284] : Going to build city : (5, 10)
-[284] : Next tile : (4, 6)  u_3
-[284] : We want to build city!
-[284] : Going to build city : (5, 10)
-[284] : Next tile : (7, 8)  u_4
-[284] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8176220>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8176910>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8176070>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b8910>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b8760>, 'n')}
-[285] : We want to build city!
-[285] : Going to build city : (5, 10)
-[285] : Next tile : (7, 8)  u_4
-[285] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c5850>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c54f0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c5430>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81c5820>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81c59d0>, 'n')}
-[286] : We want to build city!
-[286] : Going to build city : (5, 10)
-[286] : Next tile : (7, 8)  u_4
-[286] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c5850>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbae80c59d0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81ae6d0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81ae7f0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81ae820>, 'n')}
-[287] : We want to build city!
-[287] : Going to build city : (5, 10)
-[287] : Next tile : (4, 6)  u_3
-[287] : We want to build city!
-[287] : Going to build city : (5, 10)
-[287] : Next tile : (7, 8)  u_4
-[287] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b5520>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819ebb0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819efa0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819e940>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf819e040>, 'n')}
-[288] : We want to build city!
-[288] : Going to build city : (5, 10)
-[288] : Next tile : (7, 8)  u_4
-[288] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08161cd0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb08161880>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbae815a490>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8188e80>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8188df0>, 'n')}
-[289] : We want to build city!
-[289] : Going to build city : (5, 10)
-[289] : Next tile : (7, 8)  u_4
-[289] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08161cd0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b4eb0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4d90>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b48b0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b49a0>, 'n')}
-[290] : We want to build city!
-[290] : Going to build city : (5, 10)
-[290] : Next tile : (4, 6)  u_3
-[290] : We want to build city!
-[290] : Going to build city : (5, 10)
-[290] : Next tile : (7, 8)  u_4
-[290] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8179490>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81792b0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81790d0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8179b20>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8179730>, 'n')}
-[291] : We want to build city!
-[291] : Going to build city : (5, 10)
-[291] : Next tile : (7, 8)  u_4
-[291] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb081604f0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb08160a00>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08160fa0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08160ac0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08160c40>, 'n')}
-[292] : We want to build city!
-[292] : Going to build city : (5, 10)
-[292] : Next tile : (7, 8)  u_4
-[292] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb081604f0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a9850>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a98b0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81a99d0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81a9a60>, 'n')}
-[293] : We want to build city!
-[293] : Going to build city : (5, 10)
-[293] : Next tile : (4, 6)  u_3
-[293] : We want to build city!
-[293] : Going to build city : (5, 10)
-[293] : Next tile : (7, 8)  u_4
-[293] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb081625e0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbb081620d0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08162970>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08162f10>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08162850>, 'n')}
-[294] : We want to build city!
-[294] : Going to build city : (5, 10)
-[294] : Next tile : (7, 8)  u_4
-[294] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbae80c5850>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbae80c5820>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08163f40>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08163700>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08163670>, 'n')}
-[295] : We want to build city!
-[295] : Going to build city : (5, 10)
-[295] : Next tile : (7, 8)  u_4
-[295] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbae80c5850>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8176fa0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8176220>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8176520>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8176a60>, 'n')}
-[296] : We want to build city!
-[296] : Going to build city : (5, 10)
-[296] : Next tile : (4, 6)  u_3
-[296] : We want to build city!
-[296] : Going to build city : (5, 10)
-[296] : Next tile : (7, 8)  u_4
-[296] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c5fd0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c5250>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c55b0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81c5850>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b13d0>, 'n')}
-[297] : We want to build city!
-[297] : Going to build city : (5, 10)
-[297] : Next tile : (7, 8)  u_4
-[297] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b12b0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b12e0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b1820>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b17c0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b1880>, 'n')}
-[298] : We want to build city!
-[298] : Going to build city : (5, 10)
-[298] : Next tile : (7, 8)  u_4
-[298] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b12b0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b4b80>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4730>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b4b50>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b42b0>, 'n')}
-[299] : We want to build city!
-[299] : Going to build city : (5, 10)
-[299] : Next tile : (4, 6)  u_3
-[299] : We want to build city!
-[299] : Going to build city : (5, 10)
-[299] : Next tile : (7, 8)  u_4
-[299] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8179040>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8179be0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8179550>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8179820>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8179250>, 'n')}
-[300] : We want to build city!
-[300] : Going to build city : (5, 10)
-[300] : Next tile : (7, 8)  u_4
-[300] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8199be0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8199f70>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8199850>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8199550>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8199f10>, 'n')}
-[301] : We want to build city!
-[301] : Going to build city : (5, 10)
-[301] : Next tile : (7, 8)  u_4
-[301] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8199be0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8185d00>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8185df0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8185e80>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8185670>, 'n')}
-[302] : We want to build city!
-[302] : Going to build city : (5, 10)
-[302] : Next tile : (4, 6)  u_3
-[302] : We want to build city!
-[302] : Going to build city : (5, 10)
-[302] : Next tile : (7, 8)  u_4
-[302] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8188a90>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8188370>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8188670>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8188550>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81882b0>, 'n')}
-[303] : We want to build city!
-[303] : Going to build city : (5, 10)
-[303] : Next tile : (7, 8)  u_4
-[303] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817be50>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8197730>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8197640>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81979d0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81978e0>, 'n')}
+[270] : Error : list index out of range
+
+[271] : True , 399.0
+
+[272] : True , 376.0
+
+[273] : True , 353.0
+
+[274] : True , 330.0
+
+[275] : True , 307.0
+
+[276] : False , 284.0
+
+[277] : False , 261.0
+
+[278] : False , 238.0
+
+[279] : False , 215.0
+
+[280] : False , 192.0
+
+[281] : False , 192.0
+
+[282] : False , 192.0
+
+[283] : False , 192.0
+
+[284] : False , 192.0
+
+[285] : False , 192.0
+
+[286] : False , 192.0
+
+[287] : False , 192.0
+
+[288] : False , 192.0
+
+[289] : False , 192.0
+
+[290] : False , 192.0
+
+[291] : False , 192.0
+
+[292] : False , 192.0
+[292] : Going back to city
+
+[293] : False , 192.0
+
+[294] : False , 192.0
+[294] : Going back to city
+
+[295] : False , 192.0
+
+[296] : False , 192.0
+[296] : Going back to city
+
+[297] : False , 292.0
+
+[298] : False , 292.0
+
+[299] : False , 292.0
+
+[300] : False , 292.0
+[300] : Going back to city
+
+[301] : True , 392.0
+
+[302] : True , 392.0
+
+[303] : True , 392.0
+
+[304] : True , 392.0
 [304] : We want to build city!
-[304] : Going to build city : (5, 10)
-[304] : Next tile : (7, 8)  u_4
-[304] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817be50>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81975b0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81974c0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08160580>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb081606d0>, 'n')}
-[305] : We want to build city!
-[305] : Going to build city : (5, 10)
-[305] : Next tile : (4, 6)  u_3
-[305] : We want to build city!
-[305] : Going to build city : (5, 10)
-[305] : Next tile : (7, 8)  u_4
-[305] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08160c40>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbb081601c0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08160640>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08160b80>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08160970>, 'n')}
-[306] : We want to build city!
-[306] : Going to build city : (5, 10)
-[306] : Next tile : (7, 8)  u_4
-[306] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf818f1f0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf818f280>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf818f520>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf818f5b0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf818f070>, 'n')}
-[307] : We want to build city!
-[307] : Going to build city : (5, 10)
-[307] : Next tile : (7, 8)  u_4
-[307] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf818f1f0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d5520>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d5a90>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d5c10>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81d5880>, 'n')}
+[304] : Error : list index out of range
+
+[305] : True , 492.0
+
+[306] : True , 492.0
+
+[307] : True , 492.0
+
+[308] : True , 492.0
 [308] : We want to build city!
-[308] : Going to build city : (5, 10)
-[308] : Next tile : (4, 6)  u_3
-[308] : We want to build city!
-[308] : Going to build city : (5, 10)
-[308] : Next tile : (7, 8)  u_4
-[308] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8176e50>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8176190>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c9400>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08161430>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08161d60>, 'n')}
-[309] : We want to build city!
-[309] : Going to build city : (5, 10)
-[309] : Next tile : (7, 8)  u_4
-[309] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b4be0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b4370>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b4df0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b4e80>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b4cd0>, 'n')}
+[308] : Error : list index out of range
+
+[309] : True , 492.0
+
+[310] : True , 492.0
 [310] : We want to build city!
-[310] : Going to build city : (5, 10)
-[310] : Next tile : (7, 8)  u_4
-[310] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b4be0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81798e0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8179a60>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819eca0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf819ed90>, 'n')}
-[311] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8172e50>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81728b0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8172910>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81720a0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8172160>, 'n')}
-[312] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d3a90>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d3a60>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d3ca0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d3e20>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81d3d00>, 'n')}
-[313] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b5160>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b5e80>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b59a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b5070>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81ab970>, 'n')}
-[314] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf817b1f0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf817b0a0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf817b190>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf817b340>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf817b790>, 'n')}
-[315] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08162520>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbb08162130>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbb08162940>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08162df0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb081620d0>, 'n')}
-[316] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d5400>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d52e0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d5d00>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d5760>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81d55b0>, 'n')}
-[317] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf818fc70>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf818fd30>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf818fe80>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf818fe50>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf818f1c0>, 'n')}
-[318] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d73d0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d70d0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d71f0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d7460>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81d7490>, 'n')}
-[319] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81761f0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81760d0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8176610>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8176af0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8176070>, 'n')}
-[320] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81722b0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8172610>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8172790>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8172f70>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8172460>, 'n')}
-[321] : We want to build city!
-[321] : Going to build city : (5, 10)
-[321] : Next tile : (4, 6)  u_3
-[321] : We want to build city!
-[321] : Going to build city : (5, 10)
-[321] : Next tile : (7, 8)  u_4
-[321] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81792e0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8179580>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8179c70>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81796d0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8179820>, 'n')}
-[322] : We want to build city!
-[322] : Going to build city : (5, 10)
-[322] : Next tile : (7, 8)  u_4
-[322] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aacd0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aa820>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aa4c0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aa610>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81aa070>, 'n')}
-[323] : We want to build city!
-[323] : Going to build city : (5, 10)
-[323] : Next tile : (7, 8)  u_4
-[323] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aacd0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816d580>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf816d3d0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf816d5e0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf816dbb0>, 'n')}
-[324] : We want to build city!
-[324] : Going to build city : (5, 10)
-[324] : Next tile : (4, 6)  u_3
-[324] : We want to build city!
-[324] : Going to build city : (5, 10)
-[324] : Next tile : (7, 8)  u_4
-[324] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8199e20>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8199d60>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81998b0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81996d0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8199970>, 'n')}
-[325] : We want to build city!
-[325] : Going to build city : (5, 10)
-[325] : Next tile : (7, 8)  u_4
-[325] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d5910>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d57f0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d5370>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d5ca0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81d5490>, 'n')}
-[326] : We want to build city!
-[326] : Going to build city : (5, 10)
-[326] : Next tile : (7, 8)  u_4
-[326] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81d5910>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c5c40>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c5580>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81c5f10>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81c5ac0>, 'n')}
-[327] : We want to build city!
-[327] : Going to build city : (5, 10)
-[327] : Next tile : (4, 6)  u_3
-[327] : We want to build city!
-[327] : Going to build city : (5, 10)
-[327] : Next tile : (7, 8)  u_4
-[327] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb08160460>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbb08160b50>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81777f0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8177910>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8177b50>, 'n')}
-[328] : We want to build city!
-[328] : Going to build city : (5, 10)
-[328] : Next tile : (7, 8)  u_4
-[328] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0d30>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8176070>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81768b0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8176700>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81769a0>, 'n')}
-[329] : We want to build city!
-[329] : Going to build city : (5, 10)
-[329] : Next tile : (7, 8)  u_4
-[329] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a0d30>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8196cd0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8196df0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8196f70>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8196160>, 'n')}
-[330] : We want to build city!
-[330] : Going to build city : (5, 10)
-[330] : Next tile : (4, 6)  u_3
-[330] : We want to build city!
-[330] : Going to build city : (5, 10)
-[330] : Next tile : (7, 8)  u_4
-[330] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8179820>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8179af0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81796a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8179f40>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81795b0>, 'n')}
-[331] : We want to build city!
-[331] : Going to build city : (5, 10)
-[331] : Next tile : (7, 8)  u_4
-[331] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81cba90>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81cb3a0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81cbdc0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81cbd90>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81cb160>, 'n')}
-[332] : We want to build city!
-[332] : Going to build city : (5, 10)
-[332] : Next tile : (7, 8)  u_4
-[332] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81cba90>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8185340>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8185190>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8185d00>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81858b0>, 'n')}
-[333] : We want to build city!
-[333] : Going to build city : (5, 10)
-[333] : Next tile : (4, 6)  u_3
-[333] : We want to build city!
-[333] : Going to build city : (5, 10)
-[333] : Next tile : (7, 8)  u_4
-[333] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81a9d60>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81a9b50>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a9b20>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81a93d0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81a91f0>, 'n')}
-[334] : We want to build city!
-[334] : Going to build city : (5, 10)
-[334] : Next tile : (7, 8)  u_4
-[334] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819ec70>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819e8e0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819e3a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819e310>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf819ec40>, 'n')}
+[310] : Error : list index out of range
+
+[311] : True , 469.0
+
+[312] : True , 446.0
+
+[313] : True , 423.0
+
+[314] : True , 400.0
+
+[315] : True , 377.0
+
+[316] : True , 354.0
+
+[317] : True , 331.0
+
+[318] : True , 308.0
+
+[319] : False , 285.0
+
+[320] : False , 262.0
+
+[321] : False , 262.0
+
+[322] : False , 262.0
+
+[323] : False , 262.0
+
+[324] : False , 262.0
+
+[325] : False , 262.0
+
+[326] : False , 262.0
+
+[327] : False , 262.0
+
+[328] : False , 262.0
+
+[329] : False , 262.0
+[329] : Going back to city
+
+[330] : False , 262.0
+
+[331] : False , 262.0
+[331] : Going back to city
+
+[332] : True , 362.0
+
+[333] : True , 362.0
+
+[334] : True , 362.0
+
+[335] : True , 362.0
 [335] : We want to build city!
-[335] : Going to build city : (5, 10)
-[335] : Next tile : (7, 8)  u_4
-[335] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819ec70>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf817ae20>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf817ab80>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf817aac0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf817a730>, 'n')}
-[336] : We want to build city!
-[336] : Going to build city : (5, 10)
-[336] : Next tile : (4, 6)  u_3
-[336] : We want to build city!
-[336] : Going to build city : (5, 10)
-[336] : Next tile : (7, 8)  u_4
-[336] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b4460>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbae8175fd0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81723a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8172580>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81728b0>, 'n')}
-[337] : We want to build city!
-[337] : Going to build city : (5, 10)
-[337] : Next tile : (7, 8)  u_4
-[337] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81763a0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8176c10>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81767f0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81760d0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8176280>, 'n')}
-[338] : We want to build city!
-[338] : Going to build city : (5, 10)
-[338] : Next tile : (7, 8)  u_4
-[338] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81763a0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d5d60>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d59a0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d55b0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81d5f70>, 'n')}
+[335] : Error : list index out of range
+
+[336] : True , 462.0
+
+[337] : True , 462.0
+
+[338] : True , 462.0
+
+[339] : True , 462.0
 [339] : We want to build city!
-[339] : Going to build city : (5, 10)
-[339] : Next tile : (4, 6)  u_3
-[339] : We want to build city!
-[339] : Going to build city : (5, 10)
-[339] : Next tile : (7, 8)  u_4
-[339] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb081614f0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbb08161fd0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08161310>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08161490>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08161b80>, 'n')}
-[340] : We want to build city!
-[340] : Going to build city : (5, 10)
-[340] : Next tile : (7, 8)  u_4
-[340] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aaf10>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aa7f0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aa100>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aa670>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81aa040>, 'n')}
+[339] : Error : list index out of range
+
+[340] : True , 462.0
+
+[341] : True , 462.0
 [341] : We want to build city!
-[341] : Going to build city : (5, 10)
-[341] : Next tile : (7, 8)  u_4
-[341] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aaf10>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8185910>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8185c40>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81855e0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81a01c0>, 'n')}
+[341] : Error : list index out of range
+
+[342] : True , 462.0
 [342] : We want to build city!
-[342] : Going to build city : (5, 10)
-[342] : Next tile : (4, 6)  u_3
-[342] : We want to build city!
-[342] : Going to build city : (5, 10)
-[342] : Next tile : (7, 8)  u_4
-[342] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81c5850>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81c52e0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81c5100>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81c5910>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81c5040>, 'n')}
-[343] : We want to build city!
-[343] : Going to build city : (5, 10)
-[343] : Next tile : (7, 8)  u_4
-[343] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816d820>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbb081625e0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb08162310>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08162640>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb081628b0>, 'n')}
+[342] : Error : list index out of range
+
+[343] : True , 462.0
+
+[344] : True , 462.0
 [344] : We want to build city!
-[344] : Going to build city : (5, 10)
-[344] : Next tile : (7, 8)  u_4
-[344] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816d820>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8177d30>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8177e20>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8177f10>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8177700>, 'n')}
+[344] : Error : list index out of range
+
+[345] : True , 462.0
 [345] : We want to build city!
-[345] : Going to build city : (5, 10)
-[345] : Next tile : (4, 6)  u_3
-[345] : We want to build city!
-[345] : Going to build city : (5, 10)
-[345] : Next tile : (7, 8)  u_4
-[345] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819e7c0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819e880>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819ea60>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819eb20>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf819e370>, 'n')}
-[346] : We want to build city!
-[346] : Going to build city : (5, 10)
-[346] : Next tile : (7, 8)  u_4
-[346] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8197af0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8197cd0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8197df0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8197e20>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8197fa0>, 'n')}
+[345] : Error : list index out of range
+
+[346] : True , 462.0
+
+[347] : True , 462.0
 [347] : We want to build city!
-[347] : Going to build city : (5, 10)
-[347] : Next tile : (7, 8)  u_4
-[347] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8197af0>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81d5520>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81d5580>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81d5640>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81d5a90>, 'n')}
+[347] : Error : list index out of range
+
+[348] : True , 462.0
 [348] : We want to build city!
-[348] : Going to build city : (5, 10)
-[348] : Next tile : (4, 6)  u_3
-[348] : We want to build city!
-[348] : Going to build city : (5, 10)
-[348] : Next tile : (7, 8)  u_4
-[348] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbb081619a0>, 'n'), 'u_4': (<lux.game_map.Position object at 0x7fbb08161df0>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbb081613d0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08161f10>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b8040>, 'n')}
-[349] : We want to build city!
-[349] : Going to build city : (5, 10)
-[349] : Next tile : (7, 8)  u_4
-[349] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b8370>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b8460>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b85e0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81b8130>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81b87c0>, 'n')}
+[348] : Error : list index out of range
+
+[349] : True , 462.0
+
+[350] : True , 462.0
 [350] : We want to build city!
-[350] : Going to build city : (5, 10)
-[350] : Next tile : (7, 8)  u_4
-[350] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b8370>, 's'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81af940>, 'e'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81a02e0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81a0430>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81a0f70>, 'n')}
-[351] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8199cd0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8199790>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8199dc0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8199bb0>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8199370>, 'n')}
-[352] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf816da60>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf816d130>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf816d700>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf816dd90>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf816d520>, 'n')}
-[353] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81768e0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf8176430>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8176f40>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8176d00>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8176d90>, 'n')}
-[354] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81b5790>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81b5220>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81b5460>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf817ef70>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf817eb20>, 'n')}
-[355] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8184190>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81840a0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81842b0>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8184340>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8184460>, 'n')}
-[356] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf819eb50>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf819e5e0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf819ed60>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf819e790>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf819e760>, 'n')}
-[357] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf8196460>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbb081603a0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbb08160580>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbb08160b20>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbb08160d90>, 'n')}
-[358] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81aa250>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81aa1f0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf81aa910>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf81aa940>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf81aaca0>, 'n')}
-[359] : {'u_1': (<lux.game_map.Position object at 0x7fbaf81b4af0>, 'w'), 'u_3': (<lux.game_map.Position object at 0x7fbaf81796d0>, 'c'), 'u_4': (<lux.game_map.Position object at 0x7fbaf81790a0>, 'c'), 'u_5': (<lux.game_map.Position object at 0x7fbaf8179850>, 'n'), 'u_6': (<lux.game_map.Position object at 0x7fbaf8179460>, 'n'), 'u_7': (<lux.game_map.Position object at 0x7fbaf8179430>, 'n')}
+[350] : Error : list index out of range
+
+[351] : True , 439.0
+
+[352] : True , 416.0
+
+[353] : True , 393.0
+
+[354] : True , 370.0
+
+[355] : True , 347.0
+
+[356] : True , 324.0
+
+[357] : True , 301.0
+
+[358] : False , 278.0
+
+[359] : False , 255.0

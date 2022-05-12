@@ -1,0 +1,11 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/Users/ritesh/Downloads/Python/Python/Lux AI/intermediate/agent.py", line 178, in agent
+    if (translate_direction_to_pos(unit_move_dir, unit.pos, game_state), unit_move_dir) in unit_actions.values() and unit.id in unit_actions and unit_actions[unit.id] != (translate_direction_to_pos(unit_move_dir, unit.pos, game_state), unit_move_dir):
+  File "/Users/ritesh/Downloads/Python/Python/Lux AI/intermediate/agent.py", line 95, in translate_direction_to_pos
+    return game_state.gamemap.get_cell(pos[0], pos[1] + 1)
+AttributeError: 'Game' object has no attribute 'gamemap'
