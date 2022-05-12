@@ -1,0 +1,9 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/Users/ritesh/Downloads/Python/Python/Lux AI/intermediate/agent.py", line 119, in agent
+    elif f"{resource_tile.pos}" not in resource_tiles_not_taken and unit.id not in resource_tiles_not_taken.values() and resource_tile.resource.amount > 300:
+AttributeError: 'list' object has no attribute 'values'

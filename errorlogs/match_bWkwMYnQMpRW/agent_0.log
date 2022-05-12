@@ -1,0 +1,9 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/Users/ritesh/Downloads/Python/Python/Lux AI/intermediate/agent.py", line 194, in agent
+    log(f"Going to build city : {build_loc.pos}")
+AttributeError: 'NoneType' object has no attribute 'pos'
