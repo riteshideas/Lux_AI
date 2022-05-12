@@ -23,6 +23,7 @@ prev_text = 0
 
 
 
+
 with open("../agent.log", "w") as f:
     f.write("")
 
@@ -80,7 +81,7 @@ def return_removed_list(lst, remove_item):
 
 def find_empty_tile_near(game_state, empty_tile):
     build_loc = None
-    dirs = [(0,1), (1, 0), (0, -1), (-1, 0)]
+    dirs = [(0,1), (1, 0), (0, -1), (-1, 0), (0, 2), (0, -2), (2, 0), (-2, 0), (-1, 1), (1, 1), (1, -1), (-1, -1)]
     for d in dirs:
         try:
             possible_empty_tile = game_state.map.get_cell(empty_tile.pos.x + d[0], empty_tile.pos.y + d[1])
@@ -111,6 +112,7 @@ def agent(observation, configuration):
     global unit_to_city
     global global_observation
     global worker_pos
+    global cooldown
 
 
 
@@ -145,8 +147,7 @@ def agent(observation, configuration):
 
 
     # Returns true if there is enough fuel to build a city tile and last the night
-    enough_fuel = city_fuel > (300 * len(city_tiles))
-
+    enough_fuel = city_fuel > (200 * len(city_tiles))
 
     resource_tiles: list[Cell] = get_resource_tiles(game_state, width, height)
 
@@ -183,7 +184,7 @@ def agent(observation, configuration):
             else:
                 actions.append(city_tile.research())
 
-    log(f"{enough_fuel} , {city_fuel}")
+    log(f"{enough_fuel} , {city_fuel} , {len(city_tiles)}")
 
     # We iterate over all our units and do something with them
     for unit in player.units:
@@ -213,13 +214,12 @@ def agent(observation, configuration):
 
                 if possible_resource_tile.resource.amount < 300:
                     actions.append(unit.move(random.choice(["n", "s", "w", "e"])))
-                    continue
-
-                actions.append(unit.move(unit_move_dir))
+                else:
+                    actions.append(unit.move(unit_move_dir))
 
             else:
 
-                if build_city and enough_fuel:
+                if build_city:
                     log("We want to build city!")
                     if build_loc is None:
 
@@ -233,9 +233,10 @@ def agent(observation, configuration):
 
                         build_city = False
                         build_loc = None
+                        enough_fuel = False
                         continue
 
-                    elif build_loc != None:
+                    elif build_loc != None and enough_fuel:
                         try:
                             log(f"Going to build city : {build_loc.pos}")
                             next_tile_pos = unit.pos.translate(unit.pos.direction_to(build_loc.pos), len(player.units))
@@ -256,6 +257,15 @@ def agent(observation, configuration):
                             actions.append(unit.move(move_dir))
                         except Exception as e:
                             log(f"Error: {str(e)}")
+
+                    elif len(player.cities) > 0:
+                        log("Going back to city")
+                        if unit.id in unit_to_city and unit_to_city[unit.id] in city_tiles:
+                            actions.append(unit.move(unit.pos.direction_to(unit_to_city[unit.id].pos)))
+                        else:
+                            unit_to_city[unit.id] = get_close_city_tile(player, unit)
+                            actions.append(unit.move(unit.pos.direction_to(unit_to_city[unit.id].pos)))
+
 
 
                 # if unit is a worker and there is no cargo space left, and we have cities, lets return to them
