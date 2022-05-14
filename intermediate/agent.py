@@ -1,5 +1,6 @@
 from itertools import count
-import math, sys
+import math
+import sys
 from shutil import move
 from lux.game import Game
 from lux.game_map import Cell, RESOURCE_TYPES
@@ -13,10 +14,13 @@ DIRECTIONS = Constants.DIRECTIONS
 
 game_state = None
 build_loc = None
+build_cart = False
 
 unit_to_resource_dict = {}
 unit_to_city = {}
 worker_pos = {}
+unit_worker = {}
+unit_cart = {}
 
 global_observation = 0
 prev_text = 0
@@ -107,12 +111,12 @@ def translate_direction_to_pos(dir:str, pos, game_state):
 
 def agent(observation, configuration):
     global game_state
+    global global_observation
     global build_loc
     global unit_to_resource_dict
     global unit_to_city
-    global global_observation
     global worker_pos
-    global cooldown
+    global unit_worker
 
 
 
@@ -147,7 +151,7 @@ def agent(observation, configuration):
 
 
     # Returns true if there is enough fuel to build a city tile and last the night
-    enough_fuel = city_fuel > (200 * len(city_tiles))
+    enough_fuel = city_fuel > (250 * len(city_tiles))
 
     resource_tiles: list[Cell] = get_resource_tiles(game_state, width, height)
 
@@ -162,7 +166,7 @@ def agent(observation, configuration):
 
 
     for w in workers:
-        if w not in unit_to_resource_dict:
+        if w.id not in unit_to_resource_dict:
             unit_to_resource_dict[w.id] = get_closest_resource_tile(w, resource_tiles, player)
 
     for w in workers:
@@ -190,8 +194,10 @@ def agent(observation, configuration):
     for unit in player.units:
 
 
+        # Avoid collisions
         if len(worker_pos[unit.id]) >= 2 and len(set(worker_pos[unit.id])) == 1:
             actions.append(unit.move(random.choice(["n", "s", "e", "w"])))
+
 
         if unit.is_worker() and unit.can_act():
 
@@ -213,7 +219,8 @@ def agent(observation, configuration):
                     log(f"Worker, {unit.id} had no available resources, redirected him to {unit_to_resource_dict[unit.id].pos}")
 
                 if possible_resource_tile.resource.amount < 300:
-                    actions.append(unit.move(random.choice(["n", "s", "w", "e"])))
+                    log(unit_move_dir)
+                    actions.append(unit.move(random.choice(return_removed_list(["n", "s", "w", "e", "c"], unit_move_dir))))
                 else:
                     actions.append(unit.move(unit_move_dir))
 
