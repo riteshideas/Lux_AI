@@ -14,8 +14,9 @@ DIRECTIONS = Constants.DIRECTIONS
 
 game_state = None
 build_loc = None
-build_cart = False
 
+
+build_cart = False
 unit_to_resource_dict = {}
 unit_to_city = {}
 worker_pos = {}
@@ -155,23 +156,29 @@ def agent(observation, configuration):
 
     resource_tiles: list[Cell] = get_resource_tiles(game_state, width, height)
 
-
+    # Worker pos, do not edit
     for w in workers:
-        
         if w.id in worker_pos:
             worker_pos[w.id].append((w.pos.x, w.pos.y))
         else:
             worker_pos[w.id] = deque(maxlen=3)
             worker_pos[w.id].append((w.pos.x, w.pos.y))
 
+    #Initalize the unit_worker
+    for w in workers:
+        if w.id not in unit_worker:
+            unit_worker[w.id] = {
+                "type": None,
+                "unit" : w,
+                "resource": None,
+                "city": None
+            }
 
     for w in workers:
         if w.id not in unit_to_resource_dict:
-            unit_to_resource_dict[w.id] = get_closest_resource_tile(w, resource_tiles, player)
-
-    for w in workers:
+            unit_worker[w.id]["resource"] = get_closest_resource_tile(w, resource_tiles, player)
         if w.id not in unit_to_city:
-            unit_to_city[w.id] = get_close_city_tile(player, w)
+            unit_worker[w.id]["city"] = get_close_city_tile(player, w)
 
 
     build_city = False
@@ -205,7 +212,7 @@ def agent(observation, configuration):
 
                 # Getting all the resource tiles that are not taken but other units
                 unit_move_dir  = None
-                possible_resource_tile = unit_to_resource_dict[unit.id]
+                possible_resource_tile = unit_worker[unit.id]["resource"]
                 cell = game_state.map.get_cell_by_pos(possible_resource_tile.pos)
 
 
@@ -213,9 +220,9 @@ def agent(observation, configuration):
                     unit_move_dir = unit.pos.direction_to(cell.pos)
                 else:
                     possible_resource_tile = get_closest_resource_tile(unit, resource_tiles, player)
-                    unit_to_resource_dict[unit.id] = possible_resource_tile
+                    unit_worker[unit.id]["resource"] = possible_resource_tile
                     unit_move_dir = unit.pos.direction_to(possible_resource_tile.pos)
-                    log(f"Worker, {unit.id} had no available resources, redirected him to {unit_to_resource_dict[unit.id].pos}")
+                    log(f'Worker, {unit.id} had no available resources, redirected him to {unit_worker[unit.id]["resource"].pos}')
 
                 if possible_resource_tile.resource.amount < 300:
                     log(unit_move_dir)
@@ -266,22 +273,22 @@ def agent(observation, configuration):
 
                     elif len(player.cities) > 0:
                         log("Going back to city")
-                        if unit.id in unit_to_city and unit_to_city[unit.id] in city_tiles:
-                            actions.append(unit.move(unit.pos.direction_to(unit_to_city[unit.id].pos)))
+                        if unit_worker[unit.id]["city"] != None and unit_worker[unit.id]["city"] in city_tiles:
+                            actions.append(unit.move(unit.pos.direction_to(unit_worker[unit.id]["city"].pos)))
                         else:
-                            unit_to_city[unit.id] = get_close_city_tile(player, unit)
-                            actions.append(unit.move(unit.pos.direction_to(unit_to_city[unit.id].pos)))
+                            unit_worker[unit.id]["city"] = get_close_city_tile(player, unit)
+                            actions.append(unit.move(unit.pos.direction_to(unit_worker[unit.id]["city"].pos)))
 
 
 
                 # if unit is a worker and there is no cargo space left, and we have cities, lets return to them
                 elif len(player.cities) > 0:
                     log("Going back to city")
-                    if unit.id in unit_to_city and unit_to_city[unit.id] in city_tiles:
-                        actions.append(unit.move(unit.pos.direction_to(unit_to_city[unit.id].pos)))
+                    if unit.id in unit_to_city and unit_worker[unit.id]["city"] in city_tiles:
+                        actions.append(unit.move(unit.pos.direction_to(unit_worker[unit.id]["city"].pos)))
                     else:
-                        unit_to_city[unit.id] = get_close_city_tile(player, unit)
-                        actions.append(unit.move(unit.pos.direction_to(unit_to_city[unit.id].pos)))
+                        unit_worker[unit.id]["city"] = get_close_city_tile(player, unit)
+                        actions.append(unit.move(unit.pos.direction_to(unit_worker[unit.id]["city"].pos)))
     # you can add debug annotations using the functions in the annotate object
     # actions.append(annotate.circle(0, 0))
     return actions
