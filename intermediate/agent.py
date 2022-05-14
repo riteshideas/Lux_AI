@@ -193,7 +193,6 @@ def agent(observation, configuration):
     # We iterate over all our units and do something with them
     for unit in player.units:
 
-
         # Avoid collisions
         if len(worker_pos[unit.id]) >= 2 and len(set(worker_pos[unit.id])) == 1:
             actions.append(unit.move(random.choice(["n", "s", "e", "w"])))
